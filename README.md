@@ -6,6 +6,7 @@ Este repositorio guarda a fase de modelagem documental de um projeto voltado a e
 
 - `inbox/`: material bruto ainda nao totalmente lapidado
 - `dominio/`: conceitos centrais e definicoes do projeto
+- `dfis/`: instancias de Documentos de Formalizacao Interpretativa
 - `artefatos/`: estruturas minimas dos principais tipos de documento
 - `operacao/`: papeis, regras e criterios de funcionamento
 - `dinamicas/`: banco inicial de dinamicas e exemplos
