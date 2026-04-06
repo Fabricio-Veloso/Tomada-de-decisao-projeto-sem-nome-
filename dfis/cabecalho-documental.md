@@ -2,9 +2,7 @@
 
 ## Identificacao
 
-- tipo: DFI
-- nome completo: Documento de Formalizacao Interpretativa
-- sigla: DFI
+- tipo: DFI (Documento de Formalizacao Interpretativa)
 - publico: interno
 - status: provisoria
 - uso de siglas: permitido apos a primeira mencao
@@ -37,9 +35,7 @@ Esse cabecalho nao deve ser grande nem burocratico. Seu papel nao e transformar 
 
 No estado atual do projeto, parece suficiente que esse cabecalho identifique ao menos:
 
-- tipo do documento
-- nome completo
-- sigla, quando houver
+- tipo do documento, com sigla e nome completo quando isso ajudar a leitura
 - publico principal
 - status do documento
 - regra de uso de siglas
@@ -48,9 +44,7 @@ No estado atual do projeto, parece suficiente que esse cabecalho identifique ao 
 
 Esse conjunto minimo parece razoavel porque cada um desses campos responde a uma necessidade real de leitura:
 
-- o `tipo` ajuda a entender se o documento esta definindo, formalizando, descrevendo estrutura, registrando backlog ou servindo como exemplo
-- o `nome completo` ajuda a reduzir dependencia de alfabetizacao interna
-- a `sigla` ajuda a manter compatibilidade com o uso interno quando ela for recorrente e util
+- o `tipo`, quando apresentado como `SIGLA (nome completo)`, ajuda a entender rapidamente que artefato esta sendo lido sem espalhar a mesma informacao em dois campos
 - o `publico principal` ajuda a ajustar linguagem, densidade e expectativa de leitura
 - o `status` ajuda a distinguir o que esta mais estavel do que ainda esta em formulacao
 - a `regra de uso de siglas` ajuda a evitar tanto excesso de compressao quanto repeticao desnecessaria
@@ -64,9 +58,7 @@ Modelo inicial:
 ```md
 ## Identificacao
 
-- tipo: artefato
-- nome completo: Documento de Formalizacao Interpretativa
-- sigla: DFI
+- tipo: DFI (Documento de Formalizacao Interpretativa)
 - publico: interno
 - status: provisoria
 - uso de siglas: permitido apos a primeira mencao
@@ -77,6 +69,7 @@ Modelo inicial:
 - o cabecalho nao deve crescer sem necessidade concreta
 - nem todo documento precisa receber imediatamente todos os campos possiveis imaginaveis
 - o cabecalho deve servir a leitura, nao competir com ela
+- juntar sigla e nome completo no campo `tipo` so faz sentido quando a fusao continuar clara e legivel
 - se um documento for claramente voltado a publico amplo, o uso de siglas deve ser restringido ou evitado
 
 ## Consequencias praticas
@@ -93,6 +86,7 @@ Se essa interpretacao for aceita como boa direcao provisoria, ela permite:
 - quais tipos de documento devem obrigatoriamente usar esse cabecalho
 - se deve existir o valor `misto` no campo de publico
 - quais estados, alem de `provisoria` e `estavel`, realmente serao necessarios
+- em quais casos o campo `tipo` deve aparecer sem sigla ou sem nome expandido
 - quando um cabecalho pode ser omitido sem gerar perda relevante de clareza
 
 ## Relacao com outros artefatos
