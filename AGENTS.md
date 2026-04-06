@@ -38,7 +38,7 @@ Neste momento, nao faz parte do escopo presumir ou forcar:
 ## Estado atual do repositorio
 
 - O projeto ainda esta em fase inicial de estruturacao.
-- O conteudo principal encontra-se concentrado em um arquivao (`tudojunto.md`).
+- O repositorio ja saiu da fase de arquivao unico, embora varios pontos ainda estejam em consolidacao.
 - O repositorio ainda nao representa a estrutura ideal futura.
 - A prioridade imediata e organizar conhecimento, nao construir uma aplicacao completa.
 
