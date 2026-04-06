@@ -24,6 +24,7 @@ Dar uma forma momentaneamente estatica a uma interpretacao sobre um contexto ou 
 - o uso esperado dos DFIs e formalizar interpretacoes, marcar trechos relevantes e apontar necessidades de nos de conversa, debate, duvidas ou esclarecimentos
 - as ideias que podem virar DFI costumam surgir durante nos e dinamicas, mas a formalizacao do documento nao precisa acontecer no mesmo momento
 - em geral, o DFI tende a ser escrito depois do no, a partir do que emergiu dele, salvo quando o proprio no tiver sido desenhado especificamente para produzir DFIs
+- um bom DFI tende a precisar de uma camada curta de assimilacao rapida, para baratear a decisao de leitura aprofundada
 
 ## Para que serve
 
@@ -31,6 +32,7 @@ Dar uma forma momentaneamente estatica a uma interpretacao sobre um contexto ou 
 - registrar contexto, linha de raciocinio e pontos examinaveis por pares
 - facilitar revisao, acrescimo, contraponto e bifurcacao de interpretacoes
 - virar insumo para novos nos, novos problemas articulados e novas formalizacoes
+- permitir triagem mais rapida quando houver varios DFIs relacionados circulando ao mesmo tempo
 
 ## Para que nao serve principalmente
 

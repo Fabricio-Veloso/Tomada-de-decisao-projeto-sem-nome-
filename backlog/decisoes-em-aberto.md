@@ -3,6 +3,8 @@
 - qual e a minima estrutura viavel de um DFIP
 - qual e a minima estrutura viavel de um DPN
 - qual e a minima estrutura viavel de um DFI
+- se `visao rapida`, `posicao no encadeamento` e `fragilidades, limites e riscos` devem permanecer como vocabulario provisoriamente adotado
+- quais campos devem existir para indicar origem, derivacao, bifurcacao e centralidade entre DFIs
 - quais sao as primeiras funcoes e responsabilidades necessarias para os primeiros nos meta
 - qual seria uma boa estrutura de dinamicas para os primeiros nos meta
 - como documentar as dinamicas de checagem de quorum, abertura formal, exposicao de problematica e rodada de duvidas e acordos semanticos
