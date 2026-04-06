@@ -60,21 +60,25 @@ Organizar os proximos blocos de trabalho para sair do arquivao inicial e consoli
 | definir-regra-de-precedencia-entre-valores-chain-no-e-dinamica | relacoes entre artefatos e precedencia de regras | pending | alta | sem precedencia clara, conflitos entre niveis podem gerar interpretacoes inconsistentes | `dominio/chains.md`, `dominio/nos.md`, `operacao/regras-gerais.md` |
 | definir-estados-de-maturidade-dos-documentos | relacoes entre artefatos e precedencia de regras | pending | media | falta distinguir o que e rascunho, experimental, estavel ou legado | repositorio atual |
 | consolidar-estrutura-minima-de-dfi | estruturas minimas viaveis dos artefatos centrais | done | alta | o DFI e central para formalizacao interpretativa e agora ja possui estrutura consolidada e modelo copiavel para uso interno | `artefatos/dfi/estrutura-minima.md`, `dfis/modelo-minimo-de-dfi.md` |
-| consolidar-estrutura-minima-de-dfip | estruturas minimas viaveis dos artefatos centrais | ready | alta | o DFIP agora parece ser o proximo gargalo mais claro do fluxo, porque precisa articular o problema antes do no e preparar o primeiro exemplo completo | `artefatos/dfip/estrutura-minima.md`, `artefatos/mapa-de-artefatos.md` |
-| consolidar-estrutura-minima-de-dpn | estruturas minimas viaveis dos artefatos centrais | ready | alta | o DPN precisa sair do estado ainda muito raso atual para que o projeto consiga fechar um fluxo completo e testavel | `artefatos/dpn/estrutura-minima.md`, `artefatos/mapa-de-artefatos.md` |
+| consolidar-estrutura-minima-de-dfip | estruturas minimas viaveis dos artefatos centrais | done | alta | o DFIP precisava sair do nivel muito generico e ganhar uma estrutura minima mais operacional, com recorte claro de preparacao de no e secao para hipoteses, fundamentos e incertezas | `artefatos/dfip/estrutura-minima.md`, `artefatos/mapa-de-artefatos.md` |
+| consolidar-estrutura-minima-de-dpn | estruturas minimas viaveis dos artefatos centrais | done | alta | o DPN precisava sair do estado raso atual e ganhar uma estrutura minima reproduzivel sem inflar demais o documento, preservando como nucleo as dinamicas que compoem o no | `artefatos/dpn/estrutura-minima.md`, `artefatos/mapa-de-artefatos.md` |
+| explicitar-capacidade-assincrona-na-preparacao-de-nos | exemplos completos e validacao por leitura critica | pending | alta | o fluxo pode ganhar muita eficiencia se parte relevante da preparacao do no acontecer antes do encontro sincronico, mas isso ainda precisa ser melhor articulado operacionalmente | `dfis/capacidade-assincrona-na-preparacao-de-nos.md`, `artefatos/dfip/estrutura-minima.md` |
+| incorporar-contrapropostas-e-projecoes-no-fluxo-documental | relacoes entre artefatos e precedencia de regras | pending | alta | o projeto ainda nao explicita bem como deve receber e examinar leituras concorrentes, contrapontos e projecoes com fundamentos diferentes | `dfis/contrapropostas-projecoes-e-exame-por-pares.md`, `operacao/protocolo-provisorio-de-circulacao-de-dfi.md` |
+| investigar-mecanismos-de-retomada-de-contexto-entre-encontros | exemplos completos e validacao por leitura critica | pending | media | o projeto precisa reduzir dependencia de memoria informal entre reunioes, mas ainda nao decidiu se isso sera melhor tratado por documento, dinamica ou procedimento operacional | `dfis/reconstrucao-de-contexto-entre-encontros.md`, `operacao/`, `dinamicas/` |
 | produzir-primeiro-exemplo-completo-de-fluxo | exemplos completos e validacao por leitura critica | pending | alta | um fluxo concreto tende a revelar lacunas mais rapido do que discussao abstrata isolada | DFI + DFIP + DPN + dinamica exemplo |
 | revisar-redundancias-entre-dominio-operacao-e-artefatos | exemplos completos e validacao por leitura critica | pending | media | alguns pontos estao repetidos em mais de uma camada e precisam ser enxugados sem perder navegabilidade | `dominio/`, `operacao/`, `artefatos/` |
 
 ## Ordem sugerida
 
-1. `consolidar-estrutura-minima-de-dfip`
-2. `consolidar-estrutura-minima-de-dpn`
-3. `produzir-primeiro-exemplo-completo-de-fluxo`
-4. `revisar-redundancias-entre-dominio-operacao-e-artefatos`
-5. `definir-politica-de-nomenclatura-e-siglas`
-6. `decidir-estrategia-dos-dois-tipos-de-conteudo`
-7. `definir-regra-de-precedencia-entre-valores-chain-no-e-dinamica`
-8. `definir-estados-de-maturidade-dos-documentos`
+1. `produzir-primeiro-exemplo-completo-de-fluxo`
+2. `explicitar-capacidade-assincrona-na-preparacao-de-nos`
+3. `incorporar-contrapropostas-e-projecoes-no-fluxo-documental`
+4. `investigar-mecanismos-de-retomada-de-contexto-entre-encontros`
+5. `revisar-redundancias-entre-dominio-operacao-e-artefatos`
+6. `definir-politica-de-nomenclatura-e-siglas`
+7. `decidir-estrategia-dos-dois-tipos-de-conteudo`
+8. `definir-regra-de-precedencia-entre-valores-chain-no-e-dinamica`
+9. `definir-estados-de-maturidade-dos-documentos`
 
 ## Observacoes atuais
 
@@ -89,6 +93,9 @@ Organizar os proximos blocos de trabalho para sair do arquivao inicial e consoli
 - o projeto agora tambem possui um primeiro protocolo curto para circulacao de `DFIs` em ambiente MVP
 - o projeto agora tambem possui um primeiro modelo minimo de `DFI` diretamente copiavel para uso interno
 - o bloco de `DFI` esta suficientemente consolidado para que o foco saia de teoria sobre DFI e avance para `DFIP`, `DPN` e exemplos completos de fluxo
+- o `DFIP` agora ja possui recorte mais claro de preparacao de no, estrutura minima mais operacional e uma secao explicita de `hipoteses, fundamentos e incertezas`
+- o `DPN` agora tambem possui uma estrutura minima mais enxuta, com foco em reproducao de no a partir de objetivo, dinamicas, configuracoes minimas e saidas esperadas
+- a sessao atual tambem revelou tres frentes complementares que nao devem ser absorvidas automaticamente pelo `DFIP`: capacidade assincrona de preparacao, tratamento de contrapropostas e projecoes, e mecanismos de retomada de contexto entre encontros
 - o `WORKBOARD` deve refletir menos a ordem historica desta sessao e mais o melhor proximo passo operacional
 
 ## Checklist por bloco
