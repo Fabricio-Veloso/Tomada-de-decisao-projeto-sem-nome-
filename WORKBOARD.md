@@ -4,13 +4,14 @@
 
 Organizar os proximos blocos de trabalho para sair do arquivao inicial e consolidar uma base conceitual, documental e operacional mais clara, navegavel e evolutiva.
 
-## Estado de partida
+## Estado atual
 
 - `AGENTS.md` reescrito para refletir o estado real do projeto
 - estrutura documental inicial criada por dominio, artefatos, operacao, dinamicas e backlog
 - conceitos centrais separados em arquivos proprios
 - ideias futuras e decisoes em aberto isoladas do conteudo mais estavel
 - repositório conectado ao remoto e publicado em `main`
+- legados sem funcao atual em `templates/` e `inbox/` foram removidos para reduzir ruido estrutural
 
 ## Contexto importante consolidado nesta sessao
 
@@ -59,21 +60,21 @@ Organizar os proximos blocos de trabalho para sair do arquivao inicial e consoli
 | definir-regra-de-precedencia-entre-valores-chain-no-e-dinamica | relacoes entre artefatos e precedencia de regras | pending | alta | sem precedencia clara, conflitos entre niveis podem gerar interpretacoes inconsistentes | `dominio/chains.md`, `dominio/nos.md`, `operacao/regras-gerais.md` |
 | definir-estados-de-maturidade-dos-documentos | relacoes entre artefatos e precedencia de regras | pending | media | falta distinguir o que e rascunho, experimental, estavel ou legado | repositorio atual |
 | consolidar-estrutura-minima-de-dfi | estruturas minimas viaveis dos artefatos centrais | done | alta | o DFI e central para formalizacao interpretativa e agora ja possui estrutura consolidada e modelo copiavel para uso interno | `artefatos/dfi/estrutura-minima.md`, `dfis/modelo-minimo-de-dfi.md` |
-| consolidar-estrutura-minima-de-dfip | estruturas minimas viaveis dos artefatos centrais | pending | alta | o DFIP precisa deixar o problema articulado e preparar o no de forma clara e reutilizavel | `artefatos/dfip/estrutura-minima.md` |
-| consolidar-estrutura-minima-de-dpn | estruturas minimas viaveis dos artefatos centrais | pending | alta | o DPN precisa ser suficiente para compor um banco de nos reproduziveis | `artefatos/dpn/estrutura-minima.md` |
+| consolidar-estrutura-minima-de-dfip | estruturas minimas viaveis dos artefatos centrais | ready | alta | o DFIP agora parece ser o proximo gargalo mais claro do fluxo, porque precisa articular o problema antes do no e preparar o primeiro exemplo completo | `artefatos/dfip/estrutura-minima.md`, `artefatos/mapa-de-artefatos.md` |
+| consolidar-estrutura-minima-de-dpn | estruturas minimas viaveis dos artefatos centrais | ready | alta | o DPN precisa sair do estado ainda muito raso atual para que o projeto consiga fechar um fluxo completo e testavel | `artefatos/dpn/estrutura-minima.md`, `artefatos/mapa-de-artefatos.md` |
 | produzir-primeiro-exemplo-completo-de-fluxo | exemplos completos e validacao por leitura critica | pending | alta | um fluxo concreto tende a revelar lacunas mais rapido do que discussao abstrata isolada | DFI + DFIP + DPN + dinamica exemplo |
 | revisar-redundancias-entre-dominio-operacao-e-artefatos | exemplos completos e validacao por leitura critica | pending | media | alguns pontos estao repetidos em mais de uma camada e precisam ser enxugados sem perder navegabilidade | `dominio/`, `operacao/`, `artefatos/` |
 
 ## Ordem sugerida
 
-1. `definir-politica-de-nomenclatura-e-siglas`
-2. `decidir-estrategia-dos-dois-tipos-de-conteudo`
-3. `definir-regra-de-precedencia-entre-valores-chain-no-e-dinamica`
-4. `definir-estados-de-maturidade-dos-documentos`
-5. `consolidar-estrutura-minima-de-dfip`
-6. `consolidar-estrutura-minima-de-dpn`
-7. `produzir-primeiro-exemplo-completo-de-fluxo`
-8. `revisar-redundancias-entre-dominio-operacao-e-artefatos`
+1. `consolidar-estrutura-minima-de-dfip`
+2. `consolidar-estrutura-minima-de-dpn`
+3. `produzir-primeiro-exemplo-completo-de-fluxo`
+4. `revisar-redundancias-entre-dominio-operacao-e-artefatos`
+5. `definir-politica-de-nomenclatura-e-siglas`
+6. `decidir-estrategia-dos-dois-tipos-de-conteudo`
+7. `definir-regra-de-precedencia-entre-valores-chain-no-e-dinamica`
+8. `definir-estados-de-maturidade-dos-documentos`
 
 ## Observacoes atuais
 
@@ -88,6 +89,7 @@ Organizar os proximos blocos de trabalho para sair do arquivao inicial e consoli
 - o projeto agora tambem possui um primeiro protocolo curto para circulacao de `DFIs` em ambiente MVP
 - o projeto agora tambem possui um primeiro modelo minimo de `DFI` diretamente copiavel para uso interno
 - o bloco de `DFI` esta suficientemente consolidado para que o foco saia de teoria sobre DFI e avance para `DFIP`, `DPN` e exemplos completos de fluxo
+- o `WORKBOARD` deve refletir menos a ordem historica desta sessao e mais o melhor proximo passo operacional
 
 ## Checklist por bloco
 
