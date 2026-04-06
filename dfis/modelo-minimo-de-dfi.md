@@ -9,18 +9,8 @@
 
 ## Posicao no encadeamento
 
-- estado do fluxo:
-  - rascunho
-  - aberto para consideracao
-  - em debate
-  - CONSOLIDADO
-  - arquivado
-- passo atual:
-  - em circulacao
-  - em revisao
-  - DEFINICAO PROVISORIA
-  - consolidado
-  - arquivado
+- estado do fluxo: consolidado
+- passo atual: definicao provisoria
 - tem origem em: `artefatos/dfi/estrutura-minima.md`
 - documentos relacionados: `dfis/cabecalho-documental.md`, `operacao/protocolo-provisorio-de-circulacao-de-dfi.md`
 - proximo passo:
@@ -160,3 +150,31 @@ Outro ganho importante e que esse modelo ja incorpora duas exigencias que surgir
 - este DFI concretiza a direcao registrada em `artefatos/dfi/estrutura-minima.md`
 - este DFI reutiliza o aprendizado de `dfis/cabecalho-documental.md`
 - este DFI deve ser usado em conjunto com `operacao/protocolo-provisorio-de-circulacao-de-dfi.md` quando entrar em circulacao real
+
+## Valores atualmente considerados
+
+Os valores abaixo devem ser lidos como repertorio provisiorio para teste em uso real, nao como taxonomia fechada.
+
+### Estado do fluxo
+
+- rascunho
+- aberto para consideracao
+- em debate
+- consolidado
+- arquivado
+
+### Passo atual
+
+- em circulacao
+- em revisao
+- definicao provisoria
+- referencia de cabecalho
+- absorvido por outro DFI
+- consolidado
+- arquivado
+- abrir para consideracao
+- revisar
+- levar para no
+- bifurcar em novo DFI
+- consolidar
+- manter como referencia

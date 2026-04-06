@@ -9,17 +9,8 @@
 
 ## Posicao no encadeamento
 
-- estado do fluxo:
-  - rascunho
-  - aberto para consideracao
-  - em debate
-  - CONSOLIDADO
-  - arquivado
-- passo atual:
-  - REFERENCIA DE CABECALHO
-  - em revisao
-  - absorvido por outro DFI
-  - arquivado
+- estado do fluxo: consolidado
+- passo atual: referencia de cabecalho
 - tem origem em:
 - documentos relacionados: `artefatos/dfi/estrutura-minima.md`
 - proximo passo:
@@ -157,3 +148,31 @@ Se essa interpretacao for aceita como boa direcao provisoria, ela permite:
 - este DFI pode orientar futuras regras de nomenclatura e uso de siglas
 - este DFI pode servir de insumo para um template de cabecalho documental
 - este DFI tambem pode motivar revisoes no glossario e nas estruturas minimas dos artefatos centrais
+
+## Valores atualmente considerados
+
+Os valores abaixo ainda sao provisiorios e devem ser validados pelo uso antes de virarem nomenclatura mais estavel.
+
+### Estado do fluxo
+
+- rascunho
+- aberto para consideracao
+- em debate
+- consolidado
+- arquivado
+
+### Passo atual
+
+- em circulacao
+- em revisao
+- definicao provisoria
+- referencia de cabecalho
+- absorvido por outro DFI
+- consolidado
+- arquivado
+- abrir para consideracao
+- revisar
+- levar para no
+- bifurcar em novo DFI
+- consolidar
+- manter como referencia
