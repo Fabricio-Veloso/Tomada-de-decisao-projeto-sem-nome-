@@ -1,5 +1,47 @@
 # Estrutura minima de DPN
 
+## Exemplo preenchido
+
+```md
+# DPN - No de leitura de interpretacao em circulacao
+
+## Objetivo do no
+
+Examinar uma interpretacao ou problematica ja colocada em circulacao por `DFI` ou `DFIP`, identificando duvidas centrais, contrapontos relevantes e encaminhamentos para os proximos passos do fluxo.
+
+## Dinamicas que compoem o no
+
+1. `Checagem de quorum de participantes necessarios`
+2. `Exposicao inicial do propositor`
+3. `Conversa de bar controlada`
+4. `Rodada de leitura e resposta`
+5. `Fechamento e encaminhamentos`
+
+Ordem sugerida:
+
+- a checagem de quorum abre o no e confirma se ele pode acontecer
+- a exposicao inicial cria base comum minima
+- a conversa de bar controlada testa se o problema anda com baixa estrutura
+- a rodada de leitura e resposta entra quando o grupo precisa elevar a qualidade de exame
+- o fechamento consolida clarificacoes, divergencias e proximos passos
+
+## Papeis e configuracoes minimas
+
+- arbitro responsavel por abrir o no, passar a palavra e manter o foco
+- propositor responsavel por apresentar o `DFI` ou `DFIP`
+- participantes necessarios presentes, quando o no depender de quorum especifico
+- tempo total previsto entre `35` e `60 min`, conforme quantidade de participantes
+- acesso previo ao documento em circulacao, sempre que possivel
+
+## Saidas esperadas
+
+- clarificacao minima do foco trabalhado no no
+- lista de duvidas, contrapontos e tensoes que permaneceram relevantes
+- indicacao do que pode ser resolvido por ajuste no documento atual
+- identificacao de pontos que merecem novo `DFI`
+- encaminhamento para novo no, consolidacao ou arquivamento, quando couber
+```
+
 ## Objetivo do documento
 
 Registrar um no de forma suficientemente clara para que ele possa ser reproduzido, comparado, adaptado e reutilizado.

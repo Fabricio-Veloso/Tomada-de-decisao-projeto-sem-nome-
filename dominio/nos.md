@@ -23,6 +23,8 @@ Organizar e orquestrar um ambiente saudavel que aumente a eficiencia das ativida
 - existe a possibilidade de participacao assincrona por meio de edicao e sugestao em documentos, embora a formalizacao e a discussao relevante sejam vistas como atividades diferentes
 - cada no pode ter um quorum minimo de participantes necessarios para poder comecar
 - tags simples podem ajudar a comunicar rapidamente foco, duracao, formato e privacidade de um no
+- o repositorio agora ja possui um primeiro esqueleto operacional do no em `operacao/esqueleto-inicial-do-no.md`
+- esse esqueleto inicial ja esta ligado a dinamicas-base registradas em `dinamicas/exemplos/` e a um primeiro exemplo preenchido de `DPN` em `artefatos/dpn/estrutura-minima.md`
 
 ## Tipos mencionados ate agora
 
