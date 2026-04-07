@@ -65,7 +65,7 @@ Organizar os proximos blocos de trabalho para sair do arquivao inicial e consoli
 | explicitar-capacidade-assincrona-na-preparacao-de-nos | exemplos completos e validacao por leitura critica | pending | alta | o fluxo pode ganhar muita eficiencia se parte relevante da preparacao do no acontecer antes do encontro sincronico, mas isso ainda precisa ser melhor articulado operacionalmente | `dfis/capacidade-assincrona-na-preparacao-de-nos.md`, `artefatos/dfip/estrutura-minima.md` |
 | incorporar-contrapropostas-e-projecoes-no-fluxo-documental | relacoes entre artefatos e precedencia de regras | pending | alta | o projeto ainda nao explicita bem como deve receber e examinar leituras concorrentes, contrapontos e projecoes com fundamentos diferentes | `dfis/contrapropostas-projecoes-e-exame-por-pares.md`, `operacao/protocolo-provisorio-de-circulacao-de-dfi.md` |
 | investigar-mecanismos-de-retomada-de-contexto-entre-encontros | exemplos completos e validacao por leitura critica | pending | media | o projeto precisa reduzir dependencia de memoria informal entre reunioes, mas ainda nao decidiu se isso sera melhor tratado por documento, dinamica ou procedimento operacional | `dfis/reconstrucao-de-contexto-entre-encontros.md`, `operacao/`, `dinamicas/` |
-| produzir-primeiro-exemplo-completo-de-fluxo | exemplos completos e validacao por leitura critica | pending | alta | um fluxo concreto tende a revelar lacunas mais rapido do que discussao abstrata isolada | DFI + DFIP + DPN + dinamica exemplo |
+| produzir-primeiro-exemplo-completo-de-fluxo | exemplos completos e validacao por leitura critica | in_progress | alta | um fluxo concreto tende a revelar lacunas mais rapido do que discussao abstrata isolada; o bloco foi recortado primeiro para o macro fase 1 e depois para o micro do no | `WORKBOARD-MICRO-DO-NO.md`, DFI + DFIP + DPN + dinamica exemplo |
 | revisar-redundancias-entre-dominio-operacao-e-artefatos | exemplos completos e validacao por leitura critica | pending | media | alguns pontos estao repetidos em mais de uma camada e precisam ser enxugados sem perder navegabilidade | `dominio/`, `operacao/`, `artefatos/` |
 
 ## Ordem sugerida
@@ -97,6 +97,8 @@ Organizar os proximos blocos de trabalho para sair do arquivao inicial e consoli
 - o `DPN` agora tambem possui uma estrutura minima mais enxuta, com foco em reproducao de no a partir de objetivo, dinamicas, configuracoes minimas e saidas esperadas
 - a sessao atual tambem revelou tres frentes complementares que nao devem ser absorvidas automaticamente pelo `DFIP`: capacidade assincrona de preparacao, tratamento de contrapropostas e projecoes, e mecanismos de retomada de contexto entre encontros
 - o `WORKBOARD` deve refletir menos a ordem historica desta sessao e mais o melhor proximo passo operacional
+- o bloco `produzir-primeiro-exemplo-completo-de-fluxo` entrou em execucao por um recorte mais controlado: congelar provisoriamente o macro ate a ocorrencia do no e mergulhar no micro do no antes de voltar ao intervalo entre nos
+- o aprofundamento atual do projeto foi desdobrado em `WORKBOARD-MICRO-DO-NO.md`, que concentra dinamicas, unidades de captura, eventos do no, saidas intermediarias e futuras exigencias para um MVP operacional
 
 ## Checklist por bloco
 
