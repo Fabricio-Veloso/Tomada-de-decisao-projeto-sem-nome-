@@ -11,18 +11,22 @@ Examinar uma interpretacao ou problematica ja colocada em circulacao por `DFI` o
 
 ## Dinamicas que compoem o no
 
-1. `Checagem de quorum de participantes necessarios`
-2. `Exposicao inicial do propositor`
-3. `Conversa de bar controlada`
-4. `Rodada de leitura e resposta`
-5. `Fechamento e encaminhamentos`
+1. `Abertura formal do no`
+2. `Checagem de quorum`
+3. `Apresentacao inicial do propositor`
+4. `Rodada de duvidas e esclarecimentos`
+5. `Conversa de bar controlada`
+6. `Rodada de contrapontos e propostas`
+7. `Fechamento e encaminhamentos`
 
 Ordem sugerida:
 
-- a checagem de quorum abre o no e confirma se ele pode acontecer
-- a exposicao inicial cria base comum minima
+- a abertura formal marca o inicio oficial, relembra disciplina minima de fala e explicita papeis
+- a checagem de quorum confirma se o no pode acontecer
+- a apresentacao inicial cria base comum minima
+- a rodada de duvidas e esclarecimentos limpa ambiguidades antes do exame critico
 - a conversa de bar controlada testa se o problema anda com baixa estrutura
-- a rodada de leitura e resposta entra quando o grupo precisa elevar a qualidade de exame
+- a rodada de contrapontos e propostas organiza exame critico, alternativas e possiveis caminhos derivados
 - o fechamento consolida clarificacoes, divergencias e proximos passos
 
 ## Papeis e configuracoes minimas
