@@ -411,7 +411,7 @@ Depois de sincronizar pagina atual:
 }
 ```
 
-`source_path` vira algo como `publicacao/fluxo-geral.md`.
+`source_path` vira algo como `publicacao/guia-operacional-para-publicar-dfis.md`.
 
 ## 10. Arquivamento de paginas removidas
 
