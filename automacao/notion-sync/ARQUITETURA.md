@@ -136,13 +136,13 @@ Ela:
 
 ```js
 {
-  title: "Visao do projeto",
-  relativePath: "visao-do-projeto.md",
+  title: "Guia para Publicar Documentos",
+  relativePath: "guia-operacional-para-publicar-dfis.md",
   children: []
 }
 ```
 
-No caso atual de `publicacao/SUMMARY.md`, resultado pratico e lista plana de 5 paginas de primeiro nivel.
+No caso atual de `publicacao/SUMMARY.md`, resultado pratico e uma porta de entrada, um guia operacional e paginas filhas de `DFIs em circulacao`.
 
 ### `flattenSummaryTree(nodes, parentRelativePath, target)`
 
@@ -152,9 +152,9 @@ Cada item final fica assim:
 
 ```js
 {
-  title: "Fluxo geral",
-  relativePath: "fluxo-geral.md",
-  parentRelativePath: null
+  title: "DFIs em circulacao do Fraguismo",
+  relativePath: "em-circulacao/fraguismo/README.md",
+  parentRelativePath: "guia-operacional-para-publicar-dfis.md"
 }
 ```
 
@@ -510,27 +510,25 @@ Procura pagina filha com titulo exato.
 
 ## Exemplo concreto com estado atual
 
-Hoje `npm run validate` retorna:
+Hoje `npm run validate` retorna algo como:
 
 ```txt
-Documentos gerenciados: 5
+Documentos gerenciados: 4
 - README.md
-- visao-do-projeto.md
-- piramide-de-eventos.md
-- fluxo-geral.md
-- como-comentar-e-acompanhar.md
+- guia-operacional-para-publicar-dfis.md
+- em-circulacao/fraguismo/README.md
+- em-circulacao/projeto/README.md
 ```
 
 Entao sync tenta manter, sob `NOTION_ROOT_PAGE_ID`:
 
 1. pagina `_sync-index`
-2. pagina `Publicacao para comunidade`
-3. pagina `Visao do projeto`
-4. pagina `Piramide de eventos`
-5. pagina `Fluxo geral`
-6. pagina `Como comentar e acompanhar`
+2. pagina `Projeto de melhoria da tomada de decisao`
+3. pagina `Guia operacional para publicar Documentos de proposta`
+4. pagina `DFIs em circulacao do Fraguismo`
+5. pagina `DFIs em circulacao deste projeto`
 
-Todas como filhas diretas da raiz, porque `SUMMARY.md` atual nao define aninhamento.
+As paginas de `DFIs em circulacao` ficam subordinadas ao guia, porque `SUMMARY.md` atual define esse aninhamento.
 
 ## Arquitetura minima recomendada
 
