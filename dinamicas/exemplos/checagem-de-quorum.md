@@ -17,8 +17,8 @@ Garantir que todos os participantes essenciais estejam presentes antes do inicio
 
 ## Entregaveis
 
-- input: lista de participantes necessarios
-- output: confirmacao de que todos responderam a chamada, ou decisao de adiar o no
+- input abstrato: lista de participantes necessarios
+- output abstrato: confirmacao de que todos responderam a chamada, ou decisao de adiar o no
 
 ## Passo a passo
 

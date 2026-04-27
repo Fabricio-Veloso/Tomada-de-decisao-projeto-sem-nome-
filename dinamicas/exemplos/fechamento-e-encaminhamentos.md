@@ -17,8 +17,8 @@ Consolidar o que o no produziu e transformar a elaboracao do encontro em encamin
 
 ## Entregaveis
 
-- input: pontos vivos ao final das dinamicas anteriores
-- output: resumo do que ficou esclarecido, do que seguiu em disputa e do que precisa virar ajuste, novo `DFI` ou novo no
+- input abstrato: pontos vivos ao final das dinamicas anteriores
+- output abstrato: resumo do que ficou esclarecido, do que seguiu em disputa e do que precisa virar ajuste, novo `DFI` ou novo no
 
 ## Passo a passo
 
