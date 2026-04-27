@@ -12,39 +12,55 @@ Fixar um microfluxo inicial para nos orientados por `DFI` ou `DFIP`, suficiente 
 
 ## Sequencia inicial sugerida
 
-1. `Checagem de quorum`
-2. `Exposicao inicial do propositor`
-3. `Conversa de bar controlada`
-4. `Rodada de leitura e resposta`
-5. `Fechamento e encaminhamentos`
+1. `Abertura formal do no`
+2. `Checagem de quorum`
+3. `Apresentacao inicial do propositor`
+4. `Rodada de duvidas e esclarecimentos`
+5. `Conversa de bar controlada`
+6. `Rodada de contrapontos e propostas`
+7. `Fechamento e encaminhamentos`
 
 ## Papel de cada etapa
 
-### 1. Checagem de quorum
+### 1. Abertura formal do no
+
+Marca o inicio oficial do encontro.
+
+O arbitro anuncia que o no comecou, relembra a disciplina minima de fala, informa quem exerce arbitragem, quem propoe o documento e qual e o objetivo do encontro.
+
+Quando houver novatos, vale explicar brevemente o que e o papel de arbitro e para que ele serve.
+
+### 2. Checagem de quorum
 
 Confirma se o no pode de fato comecar.
 
 Se participantes necessarios nao estiverem presentes, o encontro deve ser adiado ou reconfigurado conforme a regra do proprio no.
 
-### 2. Exposicao inicial do propositor
+### 3. Apresentacao inicial do propositor
 
 Cria uma base comum minima.
 
 O propositor apresenta o `DFI` ou `DFIP`, relembra o foco do encontro e destaca o que precisa ser trabalhado naquele no.
 
-### 3. Conversa de bar controlada
+### 4. Rodada de duvidas e esclarecimentos
 
-Abre uma janela curta para impresses, duvidas e tensoes iniciais sem exigir estrutura pesada desde o primeiro minuto.
+Limpa ambiguidades antes do exame critico mais pesado.
+
+Participantes tiram duvidas na ordem em que sinalizaram. O propositor responde logo apos cada duvida ou pequeno bloco, sob conducao do arbitro.
+
+### 5. Conversa de bar controlada
+
+Abre uma janela curta para impressoes, duvidas e tensoes iniciais sem exigir estrutura pesada desde o primeiro minuto.
 
 Essa etapa existe para testar se o problema anda bem com pouca formalizacao e para revelar rapidamente onde estao as principais divergencias.
 
-### 4. Rodada de leitura e resposta
+### 6. Rodada de contrapontos e propostas
 
-Eleva a estrutura do encontro quando a conversa inicial nao basta.
+Eleva a estrutura do encontro para exame critico mais ordenado da proposta principal.
 
-Participantes falam em ordem, com tempo limitado, enquanto o propositor responde ao final de cada bloco ou ao fim da rodada, conforme a configuracao do no.
+Participantes passam primeiro por contrapontos com resposta imediata do propositor e pequena janela de replica e treplica. So depois disso, e apenas se houver apoio coletivo suficiente, o no pode abrir pitches curtos de propostas alternativas e propostas potencializadoras para roteamento de atencao.
 
-### 5. Fechamento e encaminhamentos
+### 7. Fechamento e encaminhamentos
 
 Consolida o que o no produziu em termos de clarificacoes, desacordos, proximos passos e possiveis novos `DFIs`.
 
@@ -54,7 +70,7 @@ Mesmo sem definir ainda um documento intermediario unico, este esqueleto ja indi
 
 - confirmacao de quorum e condicoes de inicio
 - recorte efetivo do que o no vai trabalhar
-- lista de duvidas, contrapontos e tensoes que apareceram
+- lista de duvidas, contrapontos, propostas e tensoes que apareceram
 - encaminhamentos finais, inclusive quando algum ponto merecer novo `DFI`
 
 ## Observacao metodologica
