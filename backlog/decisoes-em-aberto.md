@@ -2,7 +2,6 @@
 
 - qual e a minima estrutura viavel de um DFIP
 - qual e a minima estrutura viavel de um DPN
-- qual e a minima estrutura viavel de um DFI
 - se `visao rapida`, `posicao no encadeamento` e `fragilidades, limites e riscos` devem permanecer como vocabulario provisoriamente adotado
 - quais campos devem existir para indicar origem, derivacao, bifurcacao e centralidade entre DFIs
 - quais sao as primeiras funcoes e responsabilidades necessarias para os primeiros nos meta
@@ -13,3 +12,7 @@
 - qual e a minima estrutura viavel de um documento proprio para propostas alternativas, caso isso se mostre necessario
 - como calcular de forma simples quantas propostas derivadas ainda cabem no no conforme tempo restante, quantidade de participantes e blocos obrigatorios de fechamento
 - qual e a nomenclatura final mais adequada para alguns artefatos, papeis e categorias
+- se `unidades de captura`, `eventos do no` e `saidas intermediarias` devem virar conceitos formais ou permanecer apenas como linguagem de estudo
+- qual e a gramatica minima de intervencao necessaria para distinguir apresentacao de ponto, duvida, contraponto, alternativa, resposta e encaminhamento sem burocratizar o no
+- se o quadro vivo do no deve ser tratado como artefato operacional, hipotese de interface ou apenas recurso eventual de facilitacao
+- quais registros intermediarios devem ser produzidos durante o no e quais devem ser gerados apenas depois do encontro
