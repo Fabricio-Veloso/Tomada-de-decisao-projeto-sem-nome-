@@ -1,110 +1,105 @@
-# Workboard - Estruturacao documental do projeto
+# Workboard - Checkpoint de publicacao
 
 ## Objetivo
 
-Organizar os proximos blocos de trabalho para sair do arquivao inicial e consolidar uma base conceitual, documental e operacional mais clara, navegavel e evolutiva.
+Organizar o checkpoint atual do repositorio para permitir curadoria da camada `publicacao/`, preparacao de um PR e envio do material ao Notion para leitura e comentarios da comunidade.
+
+## Spec curta do checkpoint
+
+- objetivo: sair do mergulho no micro do no e voltar a um quadro principal de trabalho
+- contexto atual: a base documental ja possui artefatos, dinamicas, microfluxo inicial, camada de publicacao e automacao inicial para Notion
+- entrada: documentos ja consolidados no repositorio, especialmente `publicacao/`, `dinamicas/`, `operacao/`, `artefatos/` e `registros/`
+- saida esperada: selecao curada de textos para publicacao e PR com escopo claro
+- restricoes: nao transformar hipoteses futuras em decisoes fechadas; nao inflar a camada publica com detalhe interno demais
+- casos principais: revisar textos publicos, escolher o que entra no Notion, manter Git como fonte da verdade
+- casos de borda: conteudo ainda experimental, siglas com pouco contexto, comentarios no Notion que podem se perder se a pagina for sobrescrita
+- criterio de aceite: `publicacao/SUMMARY.md` representar a selecao curada e os textos estarem bons o suficiente para primeira leitura externa
 
 ## Estado atual
 
-- `AGENTS.md` reescrito para refletir o estado real do projeto
-- estrutura documental inicial criada por dominio, artefatos, operacao, dinamicas e backlog
-- conceitos centrais separados em arquivos proprios
-- ideias futuras e decisoes em aberto isoladas do conteudo mais estavel
-- repositório conectado ao remoto e publicado em `main`
-- legados sem funcao atual em `templates/` e `inbox/` foram removidos para reduzir ruido estrutural
+- `AGENTS.md` reflete o foco documental e conceitual do projeto
+- o repositorio saiu do arquivao unico e esta organizado por dominio, artefatos, operacao, dinamicas, publicacao, backlog e registros
+- `DFI`, `DFIP`, `DPN`, `DPD` e `DPC` possuem estruturas minimas ou direcoes registradas
+- `artefatos/mapa-de-artefatos.md` diferencia o foco de `DFI`, `DFIP` e `DPN`
+- `operacao/esqueleto-inicial-do-no.md` registra um microfluxo inicial de no com sete etapas
+- `dinamicas/exemplos/` possui dinamicas-base alinhadas ao microfluxo atual
+- `publicacao/` possui uma primeira camada curada para leitura externa
+- `automacao/notion-sync/` possui uma automacao inicial para publicar `publicacao/` no Notion
+- `registros/nos/14-04-2026.md` registra decisoes e proximos passos de um encontro real
+- o antigo workboard do micro do no foi encerrado como quadro ativo e preservado como estudo em `ESTUDO-MICRO-DO-NO.md`
 
-## Contexto importante consolidado nesta sessao
-
-### Distincao entre DFI, DFIP e DPN
-
-- `DFI`: formaliza interpretacoes, insights e ideias que surgem durante nos e dinamicas, convertendo percepcoes ainda pouco articuladas em conteudo articulado, contextualizado e logicamente examinavel por pares
-- `DFIP`: articula o problema que sera tratado em um no, ajudando participantes a se prepararem, a compreender o foco do encontro e a orientar configuracoes do no, incluindo possiveis dinamicas adequadas ao contexto
-- `DPN`: registra um no de forma suficientemente completa para compor um banco de nos e permitir sua reproducao futura
-
-### Leitura atual do risco
-
-- a diferenca entre os tres documentos existe e e defensavel
-- o principal problema nao e a impossibilidade de separacao, mas a falta de explicitude curta e operacional dessa separacao nos documentos atuais
-- ainda pode existir alguma area de contato entre eles, mas isso tende a ser administravel se houver mapa de artefatos, regra de relacao entre documentos e exemplos concretos
-
-## Leitura rapida
+## Leitura rapida de status
 
 - `pending`: ainda nao iniciado
 - `ready`: suficientemente entendido para execucao
 - `in_progress`: em andamento
 - `done`: consolidado nesta iteracao
+- `deferred`: registrado para investigacao posterior
 - `blocked`: depende de decisao conceitual ou contexto adicional
 
-## Fases sugeridas
+## Blocos ativos
 
-1. consolidacao da arquitetura documental
-2. nomenclatura e politica de siglas
-3. relacoes entre artefatos e precedencia de regras
-4. estruturas minimas viaveis dos artefatos centrais
-5. exemplos completos e validacao por leitura critica
+| Bloco | Status | Prioridade | Motivo | Base atual |
+|---|---|---|---|---|
+| curar-publicacao-para-pr-e-notion | ready | alta | o repositorio ja possui material suficiente para uma primeira camada publica, mas o usuario precisa selecionar ideias e textos antes do PR | `publicacao/`, `publicacao/SUMMARY.md` |
+| revisar-consistencia-da-camada-publica | ready | alta | textos publicos precisam reduzir siglas, evitar detalhe interno excessivo e manter uma narrativa clara para a comunidade | `publicacao/README.md`, `publicacao/guia-operacional-para-publicar-dfis.md`, `publicacao/em-circulacao/` |
+| preparar-pr-de-publicacao | pending | alta | depois da curadoria, o PR deve mostrar claramente o que sera levado ao Notion e comentado pela comunidade | `publicacao/`, `automacao/notion-sync/` |
+| consolidar-feedback-do-notion | pending | media | comentarios externos devem voltar para o repositorio como ajustes, novas ideias ou decisoes em aberto | `publicacao/guia-operacional-para-publicar-dfis.md`, `backlog/` |
 
-## Blocos
+## Blocos concluidos ou encerrados
 
-| Bloco | Fase | Status | Prioridade | Motivo | Base atual |
-|---|---|---|---|---|---|
-| reescrever-agents-para-fase-documental | consolidacao da arquitetura documental | done | alta | o repositório precisava parar de presumir software e refletir o foco conceitual e documental | `AGENTS.md` |
-| separar-arquivao-em-estrutura-inicial | consolidacao da arquitetura documental | done | alta | o conhecimento estava concentrado em um unico arquivo e dificultava navegacao, revisao e evolucao | `README.md`, pastas atuais |
-| revisar-fronteiras-entre-dfi-dfip-e-dpn | consolidacao da arquitetura documental | done | alta | a distincao existe, mas precisava ficar explicita, curta e operacional para reduzir ambiguidade e retrabalho | `artefatos/mapa-de-artefatos.md` |
-| criar-mapa-de-artefatos-e-relacoes | relacoes entre artefatos e precedencia de regras | done | alta | faltava uma visao simples de foco, momento de surgimento e relacao entre os artefatos centrais | `artefatos/mapa-de-artefatos.md` |
-| formalizar-modelo-de-cabecalho-documental | exemplos completos e validacao por leitura critica | done | alta | o projeto precisava testar seus proprios artefatos em uso real e registrar uma direcao provisoria para identificacao de documentos | `dfis/cabecalho-documental.md` |
-| propor-mvp-de-fluxo-documental | exemplos completos e validacao por leitura critica | done | alta | antes de pensar em software proprio, o projeto precisa de uma forma simples de emular publicacao, comentario e consolidacao com baixo atrito | `operacao/mvp-do-fluxo-documental.md` |
-| definir-protocolo-provisorio-de-circulacao-de-dfi | exemplos completos e validacao por leitura critica | done | alta | o projeto precisava sair de uma ideia abstrata de fluxo e ganhar um procedimento minimo para abrir, comentar, consolidar e bifurcar DFIs | `operacao/protocolo-provisorio-de-circulacao-de-dfi.md` |
-| produzir-modelo-minimo-de-dfi | exemplos completos e validacao por leitura critica | done | alta | depois de consolidar vocabulario, cabecalho e fluxo, o projeto precisava de um modelo realmente copiavel para novos DFIs | `dfis/modelo-minimo-de-dfi.md` |
-| definir-politica-de-nomenclatura-e-siglas | nomenclatura e politica de siglas | ready | alta | o projeto ja tem varias siglas e precisa evitar inflacao, opacidade e barreira de entrada | `dominio/glossario.md`, `dominio/visao-geral.md` |
-| decidir-estrategia-dos-dois-tipos-de-conteudo | nomenclatura e politica de siglas | ready | alta | ainda nao esta claro se os dois publicos pedem duas trilhas, duas camadas de escrita ou dois conjuntos de documentos | `dominio/visao-geral.md`, `backlog/ideias-abertas.md` |
-| definir-regra-de-precedencia-entre-valores-chain-no-e-dinamica | relacoes entre artefatos e precedencia de regras | pending | alta | sem precedencia clara, conflitos entre niveis podem gerar interpretacoes inconsistentes | `dominio/chains.md`, `dominio/nos.md`, `operacao/regras-gerais.md` |
-| definir-estados-de-maturidade-dos-documentos | relacoes entre artefatos e precedencia de regras | pending | media | falta distinguir o que e rascunho, experimental, estavel ou legado | repositorio atual |
-| consolidar-estrutura-minima-de-dfi | estruturas minimas viaveis dos artefatos centrais | done | alta | o DFI e central para formalizacao interpretativa e agora ja possui estrutura consolidada e modelo copiavel para uso interno | `artefatos/dfi/estrutura-minima.md`, `dfis/modelo-minimo-de-dfi.md` |
-| consolidar-estrutura-minima-de-dfip | estruturas minimas viaveis dos artefatos centrais | done | alta | o DFIP precisava sair do nivel muito generico e ganhar uma estrutura minima mais operacional, com recorte claro de preparacao de no e secao para hipoteses, fundamentos e incertezas | `artefatos/dfip/estrutura-minima.md`, `artefatos/mapa-de-artefatos.md` |
-| consolidar-estrutura-minima-de-dpn | estruturas minimas viaveis dos artefatos centrais | done | alta | o DPN precisava sair do estado raso atual e ganhar uma estrutura minima reproduzivel sem inflar demais o documento, preservando como nucleo as dinamicas que compoem o no | `artefatos/dpn/estrutura-minima.md`, `artefatos/mapa-de-artefatos.md` |
-| explicitar-capacidade-assincrona-na-preparacao-de-nos | exemplos completos e validacao por leitura critica | pending | alta | o fluxo pode ganhar muita eficiencia se parte relevante da preparacao do no acontecer antes do encontro sincronico, mas isso ainda precisa ser melhor articulado operacionalmente | `dfis/capacidade-assincrona-na-preparacao-de-nos.md`, `artefatos/dfip/estrutura-minima.md` |
-| incorporar-contrapropostas-e-projecoes-no-fluxo-documental | relacoes entre artefatos e precedencia de regras | pending | alta | o projeto ainda nao explicita bem como deve receber e examinar leituras concorrentes, contrapontos e projecoes com fundamentos diferentes | `dfis/contrapropostas-projecoes-e-exame-por-pares.md`, `operacao/protocolo-provisorio-de-circulacao-de-dfi.md` |
-| investigar-mecanismos-de-retomada-de-contexto-entre-encontros | exemplos completos e validacao por leitura critica | pending | media | o projeto precisa reduzir dependencia de memoria informal entre reunioes, mas ainda nao decidiu se isso sera melhor tratado por documento, dinamica ou procedimento operacional | `dfis/reconstrucao-de-contexto-entre-encontros.md`, `operacao/`, `dinamicas/` |
-| produzir-primeiro-exemplo-completo-de-fluxo | exemplos completos e validacao por leitura critica | in_progress | alta | um fluxo concreto tende a revelar lacunas mais rapido do que discussao abstrata isolada; o bloco foi recortado primeiro para o macro fase 1 e depois para o micro do no | `WORKBOARD-MICRO-DO-NO.md`, DFI + DFIP + DPN + dinamica exemplo |
-| revisar-redundancias-entre-dominio-operacao-e-artefatos | exemplos completos e validacao por leitura critica | pending | media | alguns pontos estao repetidos em mais de uma camada e precisam ser enxugados sem perder navegabilidade | `dominio/`, `operacao/`, `artefatos/` |
+| Bloco | Status | Resultado | Base atual |
+|---|---|---|---|
+| reescrever-agents-para-fase-documental | done | instrucoes do projeto passaram a refletir fase documental e conceitual | `AGENTS.md` |
+| separar-arquivao-em-estrutura-inicial | done | conhecimento foi separado por dominio, artefatos, operacao, dinamicas e backlog | pastas atuais |
+| revisar-fronteiras-entre-dfi-dfip-e-dpn | done | distincao inicial entre interpretacao, problema e estrutura do no ficou mais explicita | `artefatos/mapa-de-artefatos.md` |
+| criar-mapa-de-artefatos-e-relacoes | done | mapa rapido de artefatos foi criado | `artefatos/mapa-de-artefatos.md` |
+| formalizar-modelo-de-cabecalho-documental | done | cabecalho provisorio de documentos internos foi testado | `dfis/cabecalho-documental.md` |
+| propor-mvp-de-fluxo-documental | done | fluxo documental inicial foi emulado antes de plataforma propria | `operacao/mvp-do-fluxo-documental.md` |
+| definir-protocolo-provisorio-de-circulacao-de-dfi | done | protocolo minimo para abrir, comentar, ajustar e bifurcar DFIs foi registrado | `operacao/protocolo-provisorio-de-circulacao-de-dfi.md` |
+| produzir-modelo-minimo-de-dfi | done | modelo copiavel de DFI foi criado | `dfis/modelo-minimo-de-dfi.md` |
+| consolidar-estrutura-minima-de-dfi | done | estrutura minima de DFI foi consolidada | `artefatos/dfi/estrutura-minima.md` |
+| consolidar-estrutura-minima-de-dfip | done | estrutura minima de DFIP ganhou recorte operacional | `artefatos/dfip/estrutura-minima.md` |
+| consolidar-estrutura-minima-de-dpn | done | DPN ganhou estrutura minima reproduzivel | `artefatos/dpn/estrutura-minima.md` |
+| produzir-primeiro-exemplo-completo-de-fluxo | done | bloco cumpriu sua funcao exploratoria ao gerar microfluxo, dinamicas-base e requisitos futuros; o restante fica como backlog | `ESTUDO-MICRO-DO-NO.md`, `operacao/esqueleto-inicial-do-no.md`, `dinamicas/exemplos/` |
+| criar-camada-curada-de-publicacao | done | primeira porta de entrada publica foi criada | `publicacao/` |
+| automatizar-sync-curado-para-notion | done | MVP de sync para Notion foi registrado | `automacao/notion-sync/` |
+
+## Blocos adiados para depois da publicacao
+
+| Bloco | Status | Motivo | Base atual |
+|---|---|---|---|
+| definir-politica-de-nomenclatura-e-siglas | deferred | importante, mas nao deve bloquear primeira publicacao se os textos publicos forem claros | `dominio/glossario.md`, `dfis/cabecalho-documental.md` |
+| decidir-estrategia-dos-dois-tipos-de-conteudo | deferred | a pasta `publicacao/` ja cobre a primeira camada acessivel; a camada aprofundada pode ser definida depois do feedback | `dominio/visao-geral.md`, `backlog/ideias-abertas.md` |
+| definir-regra-de-precedencia-entre-valores-chain-no-e-dinamica | deferred | ainda relevante para maturidade interna, mas nao essencial ao PR de publicacao | `dominio/chains.md`, `dominio/nos.md`, `operacao/regras-gerais.md` |
+| definir-estados-de-maturidade-dos-documentos | deferred | necessario para governanca futura, mas pode aguardar a primeira rodada de uso externo | repositorio atual |
+| explicitar-capacidade-assincrona-na-preparacao-de-nos | deferred | ja existe DFI provisoria; falta decidir incorporacao operacional | `dfis/capacidade-assincrona-na-preparacao-de-nos.md` |
+| incorporar-contrapropostas-e-projecoes-no-fluxo-documental | deferred | ja existe DFI provisoria; falta mecanismo concreto | `dfis/contrapropostas-projecoes-e-exame-por-pares.md` |
+| investigar-mecanismos-de-retomada-de-contexto-entre-encontros | deferred | ja existe DFI provisoria; falta escolher se vira documento, dinamica ou procedimento | `dfis/reconstrucao-de-contexto-entre-encontros.md` |
+| revisar-redundancias-entre-dominio-operacao-e-artefatos | deferred | limpeza util, mas secundaria diante da publicacao | `dominio/`, `operacao/`, `artefatos/` |
 
 ## Ordem sugerida
 
-1. `produzir-primeiro-exemplo-completo-de-fluxo`
-2. `explicitar-capacidade-assincrona-na-preparacao-de-nos`
-3. `incorporar-contrapropostas-e-projecoes-no-fluxo-documental`
-4. `investigar-mecanismos-de-retomada-de-contexto-entre-encontros`
-5. `revisar-redundancias-entre-dominio-operacao-e-artefatos`
-6. `definir-politica-de-nomenclatura-e-siglas`
-7. `decidir-estrategia-dos-dois-tipos-de-conteudo`
-8. `definir-regra-de-precedencia-entre-valores-chain-no-e-dinamica`
-9. `definir-estados-de-maturidade-dos-documentos`
+1. `curar-publicacao-para-pr-e-notion`
+2. `revisar-consistencia-da-camada-publica`
+3. `preparar-pr-de-publicacao`
+4. `consolidar-feedback-do-notion`
+5. retomar blocos adiados conforme o feedback revelar prioridade
 
 ## Observacoes atuais
 
-- o projeto ja saiu da fase de arquivao unico e agora pode evoluir por blocos menores e mais verificaveis
-- o principal risco atual parece ser inflacao de vocabulario interno antes de as fronteiras entre artefatos ficarem muito claras
-- o problema das siglas nao exige abolicao imediata; exige governanca de nomenclatura
-- a existencia de dois tipos de publico e uma decisao forte do projeto, mas ainda nao foi traduzida em estrategia editorial concreta
-- exemplos completos provavelmente vao revelar lacunas mais rapido do que apenas definicoes abstratas
-- o repositorio ja possui um primeiro `DFI` real, o que confirma na pratica a possibilidade de o projeto usar seus proprios artefatos para se construir
-- a distincao entre definicao de artefato e instancia real de artefato comecou a ser aplicada ao separar `dominio/dfis.md` de `dfis/`
-- o projeto agora tambem possui uma primeira proposta explicita de emulacao do fluxo documental antes de qualquer plataforma propria
-- o projeto agora tambem possui um primeiro protocolo curto para circulacao de `DFIs` em ambiente MVP
-- o projeto agora tambem possui um primeiro modelo minimo de `DFI` diretamente copiavel para uso interno
-- o bloco de `DFI` esta suficientemente consolidado para que o foco saia de teoria sobre DFI e avance para `DFIP`, `DPN` e exemplos completos de fluxo
-- o `DFIP` agora ja possui recorte mais claro de preparacao de no, estrutura minima mais operacional e uma secao explicita de `hipoteses, fundamentos e incertezas`
-- o `DPN` agora tambem possui uma estrutura minima mais enxuta, com foco em reproducao de no a partir de objetivo, dinamicas, configuracoes minimas e saidas esperadas
-- a sessao atual tambem revelou tres frentes complementares que nao devem ser absorvidas automaticamente pelo `DFIP`: capacidade assincrona de preparacao, tratamento de contrapropostas e projecoes, e mecanismos de retomada de contexto entre encontros
-- o `WORKBOARD` deve refletir menos a ordem historica desta sessao e mais o melhor proximo passo operacional
-- o bloco `produzir-primeiro-exemplo-completo-de-fluxo` entrou em execucao por um recorte mais controlado: congelar provisoriamente o macro ate a ocorrencia do no e mergulhar no micro do no antes de voltar ao intervalo entre nos
-- o aprofundamento atual do projeto foi desdobrado em `WORKBOARD-MICRO-DO-NO.md`, que concentra dinamicas, unidades de captura, eventos do no, saidas intermediarias e futuras exigencias para um MVP operacional
+- o projeto tem material suficiente para uma primeira rodada de leitura externa
+- a prioridade agora e curadoria, nao abrir novas frentes conceituais internas
+- `publicacao/` deve funcionar como porta de entrada, nao como espelho completo do repositorio
+- Notion deve ser tratado como interface de leitura e comentarios; Git continua sendo fonte da verdade
+- comentarios externos devem virar ajuste de texto, decisao em aberto ou novo item de backlog, conforme o caso
+- o estudo do micro do no preserva aprendizados, mas nao deve continuar competindo com este workboard como quadro ativo
 
-## Checklist por bloco
+## Checklist para o proximo PR
 
-- objetivo do bloco explicitado
-- fronteiras com outros conceitos revisadas
-- termos e siglas usados de forma consistente
-- relacao com outros artefatos registrada
-- criterio de aceite definido por leitura critica
-- resultado deixado em estado mais claro do que o anterior
+- `publicacao/SUMMARY.md` lista apenas textos escolhidos para a primeira rodada
+- textos publicos explicam siglas quando elas aparecem
+- textos publicos nao dependem de leitura previa do repositorio interno
+- limites da fase atual estao claros
+- Notion aparece como interface, nao como fonte principal
+- feedback esperado da comunidade esta descrito de forma simples
