@@ -116,7 +116,7 @@ Se problema descrito acima fizer sentido para voce, melhor proximo passo e enten
 
 Comece por estes materiais:
 
-- [Fluxo geral](publicacao/fluxo-geral.md)
+- [Guia operacional para publicar DFIs](publicacao/guia-operacional-para-publicar-dfis.md)
 - [Camada de publicacao](publicacao/README.md)
 - [Sumario completo](SUMMARY.md)
 

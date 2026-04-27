@@ -1,7 +1,6 @@
 # Sumario da publicacao
 
-- [Publicacao para comunidade](README.md)
-- [Visao do projeto](visao-do-projeto.md)
-- [Piramide de eventos](piramide-de-eventos.md)
-- [Fluxo geral](fluxo-geral.md)
-- [Como comentar e acompanhar](como-comentar-e-acompanhar.md)
+- [Explicação do Projeto de melhoria da tomada de decisao](README.md)
+- [Guia para Publicar Documentos](guia-operacional-para-publicar-dfis.md)
+  - [DFIs em circulacao do Fraguismo](em-circulacao/fraguismo/README.md)
+  - [DFIs em circulacao deste projeto](em-circulacao/projeto/README.md)

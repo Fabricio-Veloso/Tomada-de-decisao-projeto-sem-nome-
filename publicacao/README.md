@@ -1,50 +1,59 @@
-# Publicacao para comunidade
+# Projeto de melhoria da tomada de decisao
 
-## Objetivo desta camada
+## Para que isto existe
 
-Esta pasta existe para concentrar a camada curada de publicacao voltada a pessoas que querem acompanhar o projeto sem precisar navegar diretamente pelo fluxo interno do repositorio.
+Este projeto organiza formas mais claras de preparar conversas, registrar interpretacoes e reaproveitar o que foi produzido em debates coletivos.
 
-Ela nao substitui o repositorio inteiro. Ela organiza uma porta de entrada mais acessivel para leitura, comentarios e acompanhamento.
+A ideia central e simples: quando um grupo precisa discutir um assunto importante, nao basta conversar muito. Tambem e preciso cuidar de contexto, ordem, registro e continuidade.
 
-## Problema que o projeto tenta enfrentar
+## Problema pratico
 
-Grupos frequentemente investem muito tempo em conversas, debates e articulacoes sem meios suficientemente bons para:
+Grupos costumam perder energia quando:
 
-- apresentar um problema com clareza
-- compartilhar contexto com quem chega depois
-- organizar propostas, contrapontos e alternativas enquanto a conversa acontece
-- registrar o processo de modo reaproveitavel
-- carregar resultados para encontros futuros
+- o problema chega mal explicado
+- participantes entendem coisas diferentes sobre o mesmo tema
+- divergencias viram disputa desorganizada
+- pontos importantes se perdem depois da conversa
+- decisoes futuras precisam recomecar do zero
 
-Quando isso falha, parte importante do investimento coletivo se perde. O grupo pode repetir discussoes, esquecer premissas, misturar niveis diferentes do problema ou decidir com pouca visibilidade sobre o que realmente foi considerado.
+Este projeto tenta reduzir esse desperdicio.
 
-## O que esta sendo modelado
+## Como o projeto ajuda
 
-Projeto busca estruturar artefatos, fluxos e encontros que ajudem a:
+O projeto usa documentos e encontros estruturados para:
 
-- contextualizar melhor um problema antes do encontro principal
-- organizar em tempo real propostas, contrapontos, duvidas e alternativas
-- preservar contexto entre momentos diferentes de trabalho coletivo
-- documentar o processo para permitir retomada, refinamento e aprendizado
+- explicar melhor o problema antes da conversa principal
+- receber duvidas, contrapontos e ajustes
+- organizar o encontro com papeis e dinamicas mais claras
+- registrar interpretacoes relevantes em documentos chamados `DFIs`
+- manter esses documentos em circulacao ate serem ajustados, consolidados ou arquivados
 
-O foco atual ainda nao e construir uma plataforma definitiva. O foco e amadurecer base conceitual, documental e operacional.
+## O que e um DFI
 
-## Como ler esta publicacao
+`DFI` significa `Documento de Formalizacao Interpretativa`.
 
-Se voce esta chegando agora, a ordem mais segura hoje e:
+Na pratica, um DFI serve para registrar uma interpretacao importante sobre um tema, uma proposta, um problema, uma divergencia ou um aprendizado do processo.
 
-1. esta pagina
-2. `visao-do-projeto.md`
-3. `piramide-de-eventos.md`
-4. `fluxo-geral.md`
-5. `como-comentar-e-acompanhar.md`
+Ele nao precisa ser um texto perfeito desde o inicio. Ele pode circular, receber comentarios, ser ajustado, gerar outro DFI ou ser arquivado.
 
-## Fonte da verdade
+## Como participar agora
 
-O conteudo publicado no Notion e uma interface de leitura.
+Use esta camada de publicacao para:
 
-O que vale como referencia principal continua sendo o que esta versionado no Git e publicado pela branch curada do repositorio.
+1. entender o minimo necessario do projeto
+2. acessar DFIs em circulacao
+3. comentar duvidas, correcoes, contrapontos ou extensoes
+4. acompanhar quando um documento muda de estado
 
-## Proximo passo
+O fluxo pratico esta no [Guia operacional para publicar DFIs](guia-operacional-para-publicar-dfis.md).
 
-Continue pela [Visao do projeto](visao-do-projeto.md).
+## Onde ficam os DFIs publicados
+
+- [DFIs em circulacao do Fraguismo](em-circulacao/fraguismo/README.md)
+- [DFIs em circulacao deste projeto](em-circulacao/projeto/README.md)
+
+## Limite importante
+
+Esta publicacao e uma porta de entrada para pessoas que nao precisam navegar por todo o repositorio.
+
+A base conceitual completa, rascunhos internos e documentos de modelagem continuam no restante do repositorio.

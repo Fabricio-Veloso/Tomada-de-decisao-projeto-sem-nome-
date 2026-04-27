@@ -1,10 +1,10 @@
 # Sumario
 
 - [Inicio](README.md)
-- [Publicacao para comunidade](publicacao/README.md)
-- [Visao do projeto](publicacao/visao-do-projeto.md)
-- [Fluxo geral](publicacao/fluxo-geral.md)
-- [Piramide de eventos](publicacao/piramide-de-eventos.md)
+- [Publicacao](publicacao/README.md)
+- [Guia operacional para publicar DFIs](publicacao/guia-operacional-para-publicar-dfis.md)
+- [DFIs em circulacao do Fraguismo](publicacao/em-circulacao/fraguismo/README.md)
+- [DFIs em circulacao deste projeto](publicacao/em-circulacao/projeto/README.md)
 - [Dinamicas](dominio/dinamicas.md)
 - [Nos](dominio/nos.md)
 - [Chains](dominio/chains.md)
