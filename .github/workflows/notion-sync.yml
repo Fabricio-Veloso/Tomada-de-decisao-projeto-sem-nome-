@@ -1,0 +1,41 @@
+name: Notion Sync
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - publicacao/**
+      - automacao/notion-sync/**
+      - .github/workflows/notion-sync.yml
+  workflow_dispatch:
+
+concurrency:
+  group: notion-sync-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Validate publication tree
+        run: npm run validate
+        working-directory: automacao/notion-sync
+
+      - name: Sync publication to Notion
+        run: npm run sync
+        working-directory: automacao/notion-sync
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_ROOT_PAGE_ID: ${{ secrets.NOTION_ROOT_PAGE_ID }}
+          NOTION_SYNC_ROOT_DIR: publicacao

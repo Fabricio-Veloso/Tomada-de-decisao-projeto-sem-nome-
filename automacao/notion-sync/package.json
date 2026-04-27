@@ -1,0 +1,13 @@
+{
+  "name": "notion-sync",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Sincroniza publicacao/ para Notion a partir do GitHub Actions",
+  "scripts": {
+    "sync": "node src/index.js",
+    "validate": "node src/index.js --validate"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
