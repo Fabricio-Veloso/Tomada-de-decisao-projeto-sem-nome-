@@ -1,0 +1,15 @@
+# Sumario
+
+- [Inicio](README.md)
+- [Publicacao para comunidade](publicacao/README.md)
+- [Visao do projeto](publicacao/visao-do-projeto.md)
+- [Fluxo geral](publicacao/fluxo-geral.md)
+- [Piramide de eventos](publicacao/piramide-de-eventos.md)
+- [Dinamicas](dominio/dinamicas.md)
+- [Nos](dominio/nos.md)
+- [Chains](dominio/chains.md)
+- [DFIs (Documentos de Formalizacao Interpretativa)](dominio/dfis.md)
+- [Estrutura minima de DFIP (Documento de Formalizacao Interpretativa de Problema)](artefatos/dfip/estrutura-minima.md)
+- [Mapa de artefatos](artefatos/mapa-de-artefatos.md)
+- [MVP do fluxo documental](operacao/mvp-do-fluxo-documental.md)
+- [Protocolo provisorio de circulacao de DFI (Documento de Formalizacao Interpretativa)](operacao/protocolo-provisorio-de-circulacao-de-dfi.md)
