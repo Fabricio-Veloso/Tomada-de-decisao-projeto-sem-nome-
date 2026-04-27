@@ -12,6 +12,7 @@ Fornecer um arsenal de dinamicas que potencialize a eficiencia dos nos.
 
 - para que outras pessoas possam usar um projeto de dinamica, deve existir um DPD correspondente
 - o documento de uma dinamica deve informar nome, tempo previsto, papeis e responsaveis, roteiro de passos, entregaveis e momento de inicio em relacao ao tempo do no
+- sempre que possivel, a dinamica deve reduzir dependencia de julgamentos substantivos exclusivos do arbitro e preferir regras, registros e criterios que possam ser acompanhados pelos participantes
 
 ## Tipos mencionados ate agora
 
