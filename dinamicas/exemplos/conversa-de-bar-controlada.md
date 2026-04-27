@@ -17,8 +17,8 @@ Abrir uma janela curta de fala mais livre para levantar impressoes, duvidas e te
 
 ## Entregaveis
 
-- input: foco do no explicitado na exposicao inicial
-- output: primeiros sinais sobre duvidas centrais, tensoes, consensos locais e necessidade ou nao de maior estrutura
+- input abstrato: foco do no explicitado na exposicao inicial
+- output abstrato: primeiros sinais sobre duvidas centrais, tensoes, consensos locais e necessidade ou nao de maior estrutura
 
 ## Passo a passo
 
