@@ -12,13 +12,8 @@
 - estado do fluxo: aberto para consideracao
 - passo atual: em circulacao
 - tem origem em: reflexoes surgidas durante a consolidacao de `DFIP`
-- documentos relacionados: `artefatos/dfip/estrutura-minima.md`, `WORKBOARD.md`
-- proximo passo:
-  - revisar
-  - bifurcar em novo DFI
-  - LEVAR PARA USO EM FLUXO E DINAMICAS
-  - consolidar
-  - arquivar
+- documentos relacionados: `biblioteca/dfibs/artefatos/dfip/estrutura-minima-de-dfip.md`, `biblioteca/dfis/fluxo-documental/posicao-no-encadeamento.md`, `operacional/WORKBOARD.md`
+- proximo passo: levar para uso em fluxo e dinamicas
 - data da ultima consolidacao:
 
 ## Titulo da interpretacao
@@ -72,5 +67,5 @@ Uma consequencia importante e que a arquitetura futura do fluxo talvez precise d
 ## Relacao com outros artefatos
 
 - este DFI protege o `DFIP` de absorver responsabilidades demais
-- este DFI pode motivar futuras definicoes em `operacao/` e `dinamicas/`
+- este DFI pode motivar futuras definicoes em `biblioteca/dfis/`, `biblioteca/dpns/` e `biblioteca/dinamicas/`
 - este DFI tambem pode orientar o desenho do primeiro fluxo completo envolvendo `DFIP`, `DPN` e documentos derivados
