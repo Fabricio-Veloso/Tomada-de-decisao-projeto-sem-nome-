@@ -1,4 +1,20 @@
-# DFIP - Modelo pratico para preencher com ajuda de IA
+# DFIB - Modelo pratico de DFIP para preencher com ajuda de IA
+
+## Identificacao
+
+- tipo: DFIB (Documento de Formalizacao Informacional Bruta)
+- publico: interno
+- status: consolidado
+- uso de siglas: permitido apos a primeira mencao
+
+## Posicao no encadeamento
+
+- estado do fluxo: consolidado
+- passo atual: modelo pratico
+- tem origem em: `biblioteca/dfibs/artefatos/dfip/estrutura-minima-de-dfip.md`
+- documentos relacionados: `biblioteca/dfis/fluxo-documental/posicao-no-encadeamento.md`, `biblioteca/dfibs/artefatos/posicao-no-encadeamento/opcoes-de-posicao-no-encadeamento.md`
+- proximo passo: usar como apoio para gerar DFIPs reais
+- data da ultima consolidacao: 2026-04-30
 
 ## Para que serve
 
@@ -216,13 +232,11 @@ Resposta:
 Exemplo simples: Preservar que o objetivo nao e culpar quem nao leu, mas testar se um preparo mais leve melhora a qualidade da reuniao.
 
 Resposta:
-```
 
 ## Prompt para colar na IA
 
 Copie o texto abaixo junto com o formulario preenchido.
 
-```markdown
 Voce vai transformar o formulario preenchido em um DFIP.
 
 DFIP significa Documento de Formalizacao Interpretativa de Problematica.
@@ -284,6 +298,7 @@ Preparar a problematica que sera trabalhada em um `no` especifico, deixando clar
 - passo atual: [usar resposta sobre estado atual; se nao houver, usar definicao provisoria]
 - tem origem em: [usar resposta sobre origem no fluxo; se nao houver, usar a definir]
 - documentos relacionados: [listar DFIs, versoes, commits, PRs ou documentos citados; se nao houver, usar a definir]
+- proximo passo: [usar resposta sobre proximo passo; se nao houver, usar revisar]
 - data da ultima consolidacao: [usar resposta sobre data; se nao houver, usar a definir]
 
 ## Titulo da problematica
@@ -317,6 +332,8 @@ Preparar a problematica que sera trabalhada em um `no` especifico, deixando clar
 - Quais coisas quantificaveis ou observaveis poderiamos aferir para considerar que as acoes desejadas foram bem sucedidas? [responder com base no formulario]
 - Uma vez que os recursos e tempo sao investidos da maneira que o propositor sugere, quais seriam os sinais que poderiamos usar para verificar que a decisao nao foi assertiva ou sua execucao foi feita de forma errada? [responder com base no formulario]
 - Como esses sinais poderiam ser acompanhados? [responder com base no formulario]
+
+Sempre que possivel, transformar os indicadores em metas SMART: especificas, mensuraveis, atingiveis, relevantes e delimitadas no tempo. Se nao houver metrica ou janela temporal, registrar isso como fragilidade.
 
 ## Fragilidades, limites e riscos
 
