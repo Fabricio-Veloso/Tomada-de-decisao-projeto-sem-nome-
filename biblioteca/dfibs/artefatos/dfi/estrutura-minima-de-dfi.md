@@ -1,36 +1,20 @@
-# DFI - Estrutura minima de DFI
+# DFIB - Estrutura minima de DFI
 
 ## Identificacao
 
-- tipo: DFI (Documento de Formalizacao Interpretativa)
+- tipo: DFIB (Documento de Formalizacao Informacional Bruta)
 - publico: interno
 - status: provisoria
 - uso de siglas: permitido apos a primeira mencao
 
 ## Posicao no encadeamento
 
-- estado do fluxo:
-  - rascunho
-  - aberto para consideracao
-  - em debate
-  - CONSOLIDADO
-  - arquivado
-- passo atual:
-  - em circulacao
-  - em revisao
-  - DEFINICAO PROVISORIA
-  - consolidado
-  - arquivado
-- tem origem em: `dfis/cabecalho-documental.md`
-- documentos relacionados: `dominio/dfis.md`, `backlog/vocabulario-para-estrutura-de-dfi.md`, `dfis/modelo-minimo-de-dfi.md`
-- proximo passo:
-  - abrir para consideracao
-  - revisar
-  - levar para no
-  - bifurcar em novo DFI
-  - LEVAR PARA USO DO MODELO MINIMO DE DFI
-  - arquivar
-- data da ultima consolidacao:
+- estado do fluxo: consolidado
+- passo atual: definicao provisoria
+- tem origem em: `biblioteca/dfis/cabecalho-documental.md`
+- documentos relacionados: `operacional/vocabulario-para-estrutura-de-dfi.md`, `biblioteca/dfis/modelo-minimo-de-dfi.md`, `biblioteca/dfis/artefatos/dfi/consolidacao-de-interpretacoes-em-dfis.md`, `biblioteca/dfis/fluxo-documental/posicao-no-encadeamento.md`, `biblioteca/dfibs/artefatos/posicao-no-encadeamento/opcoes-de-posicao-no-encadeamento.md`
+- proximo passo: levar para uso do modelo minimo de DFI
+- data da ultima consolidacao: 2026-04-30
 
 ## Titulo da interpretacao
 
@@ -120,7 +104,7 @@ Campos atualmente sugeridos:
 - `proximo passo`
 - `data da ultima consolidacao`
 
-Quando ajudar a reduzir duvida de preenchimento, esses campos podem vir acompanhados de opcoes em `CAPS`.
+Os documentos finais devem registrar apenas os valores atualmente selecionados. Opcoes possiveis devem ficar em `biblioteca/dfibs/artefatos/posicao-no-encadeamento/opcoes-de-posicao-no-encadeamento.md`.
 
 Esses campos nao devem tentar substituir todo o historico. O papel deles e apenas dar localizacao minima ao leitor.
 
@@ -166,6 +150,20 @@ Secao curta para explicitar fragilidades, condicoes, duvidas ou pontos que talve
 
 Secao para explicitar consequencias praticas e conexoes com `DFIPs`, `nos`, `chains`, dinamicas ou outros `DFIs`.
 
+### Secoes opcionais-contextuais
+
+Alguns DFIs consolidam material vindo de um processo interpretativo maior, como uma chain, sequencia de nos ou conjunto de DFIPs.
+
+Nesses casos, podem ser usadas secoes opcionais para preservar partes importantes do processo sem criar outro tipo de documento. Ver `biblioteca/dfis/artefatos/dfi/consolidacao-de-interpretacoes-em-dfis.md`.
+
+Secoes opcionais sugeridas:
+
+- `Origem do processo interpretativo`
+- `Contrapontos relevantes considerados`
+- `Propostas alternativas consideradas`
+- `Reformulacoes importantes`
+- `Material absorvido de documentos anteriores`
+
 ## Exemplo de esqueleto
 
 ```md
@@ -178,27 +176,11 @@ Secao para explicitar consequencias praticas e conexoes com `DFIPs`, `nos`, `cha
 
 ## Posicao no encadeamento
 
-- estado do fluxo:
-  - rascunho
-  - ABERTO PARA CONSIDERACAO
-  - em debate
-  - consolidado
-  - arquivado
-- passo atual:
-  - EM CIRCULACAO
-  - em revisao
-  - definicao provisoria
-  - consolidado
-  - arquivado
+- estado do fluxo: aberto para consideracao
+- passo atual: em circulacao
 - tem origem em:
 - documentos relacionados:
-- proximo passo:
-  - abrir para consideracao
-  - revisar
-  - levar para no
-  - bifurcar em novo DFI
-  - consolidar
-  - arquivar
+- proximo passo: revisar
 - data da ultima consolidacao:
 
 ## Titulo da interpretacao
@@ -214,6 +196,26 @@ Secao para explicitar consequencias praticas e conexoes com `DFIPs`, `nos`, `cha
 ## Fragilidades, limites e riscos
 
 ## Relacao com outros artefatos
+
+## Origem do processo interpretativo
+
+<opcional; usar quando o DFI consolidar material vindo de no, chain, DFIP ou sequencia de trocas>
+
+## Contrapontos relevantes considerados
+
+<opcional; registrar contrapontos que influenciaram a consolidacao>
+
+## Propostas alternativas consideradas
+
+<opcional; registrar alternativas avaliadas e sua relacao com a interpretacao consolidada>
+
+## Reformulacoes importantes
+
+<opcional; registrar mudancas relevantes de formulacao ocorridas durante o processo>
+
+## Material absorvido de documentos anteriores
+
+<opcional; listar DFIPs, DFIs, registros ou outros documentos incorporados>
 ```
 
 ## Criterios praticos de qualidade
@@ -233,11 +235,13 @@ Um `DFI` minimo parece bom quando:
 - se `fragilidades, limites e riscos` deve permanecer melhor do que alternativas mais curtas
 - quando uma alteracao deve atualizar o mesmo `DFI` e quando deve gerar um novo `DFI`
 - como representar melhor linhagem, bifurcacao e centralidade entre documentos relacionados
+- quando as secoes opcionais-contextuais devem ser exigidas em DFIs de consolidacao
 
-Para comparacao inicial de nomes candidatos, ver `backlog/vocabulario-para-estrutura-de-dfi.md`.
+Para comparacao inicial de nomes candidatos, ver `operacional/vocabulario-para-estrutura-de-dfi.md`.
 
 ## Relacao com outros artefatos
 
-- este DFI absorve parte do aprendizado estabilizado em `dfis/cabecalho-documental.md`
-- este DFI se relaciona diretamente com `dominio/dfis.md`
-- este DFI dialoga com `operacao/protocolo-provisorio-de-circulacao-de-dfi.md` para manter coerencia entre estrutura e uso
+- este DFIB absorve parte do aprendizado estabilizado em `biblioteca/dfis/cabecalho-documental.md`
+- este DFIB se relaciona diretamente com `biblioteca/dfis/modelo-minimo-de-dfi.md`
+- este DFIB dialoga com `biblioteca/dfis/fluxo-documental/circulacao-revisao-e-consolidacao-de-dfis.md` para manter coerencia entre estrutura e uso
+- este DFIB deve ser lido junto de `biblioteca/dfis/fluxo-documental/posicao-no-encadeamento.md` para entender a funcao da secao de localizacao documental

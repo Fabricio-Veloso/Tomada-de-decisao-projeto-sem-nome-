@@ -1,4 +1,20 @@
-# DFIP - Estrutura minima completa
+# DFIB - Estrutura minima completa de DFIP
+
+## Identificacao
+
+- tipo: DFIB (Documento de Formalizacao Informacional Bruta)
+- publico: interno
+- status: consolidado
+- uso de siglas: permitido apos a primeira mencao
+
+## Posicao no encadeamento
+
+- estado do fluxo: consolidado
+- passo atual: estrutura minima
+- tem origem em: amadurecimento do DFIP como preparacao de problematica para no
+- documentos relacionados: `biblioteca/dfibs/artefatos/dfip/modelo-pratico-de-dfip.md`, `biblioteca/dfis/fluxo-documental/posicao-no-encadeamento.md`, `biblioteca/dfibs/artefatos/posicao-no-encadeamento/opcoes-de-posicao-no-encadeamento.md`
+- proximo passo: usar como referencia para revisar DFIPs reais
+- data da ultima consolidacao: 2026-04-30
 
 ## Objetivo do documento
 
@@ -23,19 +39,19 @@ Esta versao tem formato mais academico e completo. Seu objetivo e preservar a es
 
 As secoes do `DFIP` devem facilitar a assimilacao de contexto pelo leitor. A tabela abaixo explicita o objetivo real de cada bloco.
 
-| Secao | Objetivo real | O que ela quer saber | Para o leitor entender |
-| --- | --- | --- | --- |
-| `Identificacao` | permitir triagem | que tipo de documento e, para quem e, em que estado esta | se deve ler como rascunho, proposta, consolidado ou arquivo historico |
-| `Posicao no encadeamento` | localizar linhagem | de onde isso veio, com o que se relaciona, em que momento do fluxo esta | se o documento continua, deriva ou depende de outro documento |
-| `Titulo da problematica` | dar entrada rapida | qual e o objeto ou tensao central | sobre o que e o documento |
-| `Visao rapida da problematica` | permitir decisao de leitura | qual problema, por que agora, por que merece atencao coletiva | se a leitura ou participacao no `no` e relevante |
-| `Escopo` | controlar abertura do assunto | o que entra e o que nao entra | qual conversa esta sendo proposta e qual conversa fica fora por enquanto |
-| `Contexto base` | nivelar informacao | fatos, historico, sinais, limites, atores e consequencias | o que precisa saber antes de opinar |
-| `Formulacao central da problematica` | transformar contexto em problema trabalhavel | qual e a tensao real, por que nao e detalhe simples, quais dimensoes e consequencias existem | qual problema precisa de elaboracao coletiva |
-| `Acao proposta pelo propositor` | explicitar a intervencao desejada | o que se quer fazer, testar ou mobilizar e que recursos isso exige | qual acao esta sendo defendida ou considerada |
-| `Projecoes apos acao` | explicitar a aposta do propositor | que cenario e esperado, quais sinais indicam sucesso, erro ou execucao ruim, e como acompanhar | como verificar se a acao fez sentido |
-| `Fragilidades, limites e riscos` | impedir falsa seguranca | o que falta, o que e hipotese, que vieses ou riscos existem | onde o documento pode estar fraco ou induzir erro |
-| `Documentos relacionados` | dar rastreabilidade e apoio | materiais que sustentam, explicam ou complementam | onde checar mais contexto ou continuidade |
+| Secao                                | Objetivo real                                | O que ela quer saber                                                                           | Para o leitor entender                                                   |
+| ------------------------------------ | -------------------------------------------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| `Identificacao`                      | permitir triagem                             | que tipo de documento e, para quem e, em que estado esta                                       | se deve ler como rascunho, proposta, consolidado ou arquivo historico    |
+| `Posicao no encadeamento`            | localizar linhagem                           | de onde isso veio, com o que se relaciona, em que momento do fluxo esta                        | se o documento continua, deriva ou depende de outro documento            |
+| `Titulo da problematica`             | dar entrada rapida                           | qual e o objeto ou tensao central                                                              | sobre o que e o documento                                                |
+| `Visao rapida da problematica`       | permitir decisao de leitura                  | qual problema, por que agora, por que merece atencao coletiva                                  | se a leitura ou participacao no `no` e relevante                         |
+| `Escopo`                             | controlar abertura do assunto                | o que entra e o que nao entra                                                                  | qual conversa esta sendo proposta e qual conversa fica fora por enquanto |
+| `Contexto base`                      | nivelar informacao                           | fatos, historico, sinais, limites, atores e consequencias                                      | o que precisa saber antes de opinar                                      |
+| `Formulacao central da problematica` | transformar contexto em problema trabalhavel | qual e a tensao real, por que nao e detalhe simples, quais dimensoes e consequencias existem   | qual problema precisa de elaboracao coletiva                             |
+| `Acao proposta pelo propositor`      | explicitar a intervencao desejada            | o que se quer fazer, testar ou mobilizar e que recursos isso exige                             | qual acao esta sendo defendida ou considerada                            |
+| `Projecoes apos acao`                | explicitar a aposta do propositor            | que cenario e esperado, quais sinais indicam sucesso, erro ou execucao ruim, e como acompanhar | como verificar se a acao fez sentido                                     |
+| `Fragilidades, limites e riscos`     | impedir falsa seguranca                      | o que falta, o que e hipotese, que vieses ou riscos existem                                    | onde o documento pode estar fraco ou induzir erro                        |
+| `Documentos relacionados`            | dar rastreabilidade e apoio                  | materiais que sustentam, explicam ou complementam                                              | onde checar mais contexto ou continuidade                                |
 
 ## Identificacao
 
@@ -50,21 +66,19 @@ Campos sugeridos:
 
 Esse bloco existe para permitir triagem rapida antes da leitura do conteudo principal.
 
-## Posicao no encadeamento
+## Secao: Posicao no encadeamento
 
-Um `DFIP` deve explicitar sua posicao no fluxo de documentos, como em uma block-chain: este documento e filho ou continuacao de qual documento anterior?
+Um `DFIP` deve explicitar sua posicao no fluxo de documentos: este documento e filho, continuacao ou preparacao de qual documento anterior?
+
+A funcao da secao esta explicada em `biblioteca/dfis/fluxo-documental/posicao-no-encadeamento.md`. As opcoes possiveis ficam em `biblioteca/dfibs/artefatos/posicao-no-encadeamento/opcoes-de-posicao-no-encadeamento.md`.
 
 Campos sugeridos:
 
-- estado do fluxo:
-  - consolidado em no do dia 14-04-2026.
-- passo atual:
-  - definicao provisoria
-  - pronto para uso no no
-- tem origem em:
-  - demanda operacional ou politica
-- documentos relacionados:
-  - `DFIs` usados como insumo, versao anterior ou commits relevantes.
+- estado do fluxo: consolidado em no, rascunho ou aberto para consideracao
+- passo atual: definicao provisoria ou pronto para uso no no
+- tem origem em: demanda operacional, demanda politica, DFI anterior ou no anterior
+- documentos relacionados: `DFIs` usados como insumo, versao anterior ou commits relevantes
+- proximo passo: preparar no, revisar ou consolidar conforme o caso
 - data da ultima consolidacao: 27-04-2026.(checar PRs para mais detalhes).
 
 Esse bloco evita que o `DFIP` dependa apenas da memoria das pessoas para ser entendido dentro da continuidade do projeto.
@@ -164,6 +178,8 @@ Esta secao deve explicitar a aposta embutida na acao proposta. Ela nao deve apen
 - Como esses sinais poderiam ser acompanhados?
 
 Sempre que possivel, os indicadores devem ser simples de acompanhar. O objetivo nao e criar uma camada tecnica pesada, mas permitir que o grupo perceba se a acao produziu o efeito esperado, se falhou ou se precisa ser revista.
+
+Quando a proposta permitir, as projecoes devem se aproximar de metas SMART: especificas, mensuraveis, atingiveis, relevantes e delimitadas no tempo. Indicadores quantificaveis dentro de uma janela temporal reduzem subjetividade na avaliacao posterior. Sem isso, pode ficar inconclusivo se a acao aceita funcionou, falhou ou foi apenas interpretada de formas diferentes.
 
 ## Fragilidades, limites e riscos
 

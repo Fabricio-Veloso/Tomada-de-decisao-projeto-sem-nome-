@@ -1,4 +1,20 @@
-# Estrutura minima de DPD
+# DFIB - Estrutura minima de DPD
+
+## Identificacao
+
+- tipo: DFIB (Documento de Formalizacao Informacional Bruta)
+- publico: interno
+- status: consolidado
+- uso de siglas: permitido apos a primeira mencao
+
+## Posicao no encadeamento
+
+- estado do fluxo: consolidado
+- passo atual: estrutura minima
+- tem origem em: estudo do micro do no e catalogacao inicial de dinamicas
+- documentos relacionados: `biblioteca/dfis/fluxo-documental/posicao-no-encadeamento.md`, `biblioteca/dfibs/artefatos/posicao-no-encadeamento/opcoes-de-posicao-no-encadeamento.md`, `biblioteca/dinamicas/catalogo.md`
+- proximo passo: revisar quando DPD voltar a ser frente ativa
+- data da ultima consolidacao: 2026-04-30
 
 ## Objetivo do documento
 
