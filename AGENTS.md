@@ -91,6 +91,15 @@ Fluxo esperado:
 
 O usuario pode interromper a qualquer momento para corrigir entendimento, mudar a abordagem ou pedir explicacoes.
 
+## Uso dos workboards
+
+- `operacional/WORKBOARD.md` deve funcionar como quadro operacional atual, focado no que precisa de acao agora ou na proxima iteracao curta.
+- `operacional/WORKBOARD-ESTRATEGICO.md` deve guardar frentes maiores e garantir que tarefas operacionais sejam filhas de alguma direcao estrategica.
+- O workboard operacional nao deve acumular blocos ja concluidos, itens postergados ou historico longo.
+- Blocos concluidos devem ser registrados em `biblioteca/dfibs/registros/blocos-concluidos.md` quando ainda forem relevantes como memoria de trabalho.
+- Itens em aberto, adiados ou sem acao imediata devem ser registrados em `biblioteca/dfibs/registros/itens-em-aberto.md`, `operacional/decisoes-em-aberto.md` ou `operacional/ideias-abertas.md`, conforme o caso.
+- Ao atualizar workboards, preferir clareza operacional a completude historica.
+
 ## Formato de spec
 
 Antes de implementar uma tarefa, definir uma spec curta com:
