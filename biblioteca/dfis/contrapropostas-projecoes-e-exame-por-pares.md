@@ -12,13 +12,8 @@
 - estado do fluxo: aberto para consideracao
 - passo atual: em circulacao
 - tem origem em: reflexoes surgidas durante a consolidacao de `DFIP`
-- documentos relacionados: `artefatos/dfip/estrutura-minima.md`, `operacao/protocolo-provisorio-de-circulacao-de-dfi.md`, `WORKBOARD.md`
-- proximo passo:
-  - revisar
-  - bifurcar em novo DFI
-  - LEVAR PARA USO EM FLUXO E PROTOCOLO
-  - consolidar
-  - arquivar
+- documentos relacionados: `biblioteca/dfibs/artefatos/dfip/estrutura-minima-de-dfip.md`, `biblioteca/dfis/fluxo-documental/circulacao-revisao-e-consolidacao-de-dfis.md`, `biblioteca/dfis/fluxo-documental/posicao-no-encadeamento.md`, `operacional/WORKBOARD.md`
+- proximo passo: levar para uso em fluxo e protocolo
 - data da ultima consolidacao:
 
 ## Titulo da interpretacao

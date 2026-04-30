@@ -12,12 +12,8 @@
 - estado do fluxo: consolidado
 - passo atual: referencia de cabecalho
 - tem origem em:
-- documentos relacionados: `artefatos/dfi/estrutura-minima.md`
-- proximo passo:
-  - revisar
-  - ABSORVER ESTRUTURALMENTE
-  - manter como referencia
-  - arquivar
+- documentos relacionados: `biblioteca/dfibs/artefatos/dfi/estrutura-minima-de-dfi.md`, `biblioteca/dfis/fluxo-documental/posicao-no-encadeamento.md`
+- proximo passo: absorver estruturalmente e manter como referencia
 - data da ultima consolidacao:
 
 ## Titulo da interpretacao
@@ -89,27 +85,11 @@ Modelo inicial:
 
 ## Posicao no encadeamento
 
-- estado do fluxo:
-  - rascunho
-  - ABERTO PARA CONSIDERACAO
-  - em debate
-  - consolidado
-  - arquivado
-- passo atual:
-  - EM CIRCULACAO
-  - em revisao
-  - definicao provisoria
-  - consolidado
-  - arquivado
+- estado do fluxo: aberto para consideracao
+- passo atual: em circulacao
 - tem origem em:
 - documentos relacionados:
-- proximo passo:
-  - abrir para consideracao
-  - revisar
-  - levar para no
-  - bifurcar em novo DFI
-  - consolidar
-  - arquivar
+- proximo passo: revisar
 - data da ultima consolidacao:
 ```
 
@@ -120,7 +100,7 @@ Modelo inicial:
 - o cabecalho deve servir a leitura, nao competir com ela
 - juntar sigla e nome completo no campo `tipo` so faz sentido quando a fusao continuar clara e legivel
 - os campos de acompanhamento nao devem tentar substituir sozinhos todo o historico do documento
-- as opcoes em `CAPS` devem servir como ajuda de preenchimento, nao como taxonomia inflada sem necessidade
+- as opcoes de preenchimento devem ficar em DFIB proprio quando a lista comecar a inflar a leitura do documento
 - se um documento for claramente voltado a publico amplo, o uso de siglas deve ser restringido ou evitado
 
 ## Consequencias praticas

@@ -11,16 +11,10 @@
 
 - estado do fluxo: consolidado
 - passo atual: definicao provisoria
-- tem origem em: `artefatos/dfi/estrutura-minima.md`
-- documentos relacionados: `dfis/cabecalho-documental.md`, `operacao/protocolo-provisorio-de-circulacao-de-dfi.md`
-- proximo passo:
-  - abrir para consideracao
-  - revisar
-  - LEVAR PARA USO EM DFIS REAIS
-  - bifurcar em novo DFI
-  - consolidar
-  - arquivar
-- data da ultima consolidacao:
+- tem origem em: `biblioteca/dfibs/artefatos/dfi/estrutura-minima-de-dfi.md`
+- documentos relacionados: `biblioteca/dfis/cabecalho-documental.md`, `biblioteca/dfis/fluxo-documental/circulacao-revisao-e-consolidacao-de-dfis.md`, `biblioteca/dfis/fluxo-documental/posicao-no-encadeamento.md`, `biblioteca/dfibs/artefatos/posicao-no-encadeamento/opcoes-de-posicao-no-encadeamento.md`
+- proximo passo: levar para uso em DFIs reais
+- data da ultima consolidacao: 2026-04-30
 
 ## Titulo da interpretacao
 
@@ -49,7 +43,7 @@ Faltava, no entanto, um modelo realmente usavel, isto e, um artefato que pudesse
 
 ## Interpretacao central
 
-No estado atual do projeto, um modelo minimo de `DFI` parece precisar de nove blocos:
+No estado atual do projeto, um modelo minimo de `DFI` parece precisar de nove blocos obrigatorios:
 
 1. `Identificacao`
 2. `Posicao no encadeamento`
@@ -60,6 +54,8 @@ No estado atual do projeto, um modelo minimo de `DFI` parece precisar de nove bl
 7. `Justificativa interpretativa`
 8. `Fragilidades, limites e riscos`
 9. `Relacao com outros artefatos`
+
+Quando o DFI consolidar material vindo de chain, no, DFIP ou sequencia de trocas, ele tambem pode usar secoes opcionais-contextuais. Essas secoes existem pela razao registrada em `biblioteca/dfis/artefatos/dfi/consolidacao-de-interpretacoes-em-dfis.md`.
 
 Modelo-base sugerido:
 
@@ -75,27 +71,11 @@ Modelo-base sugerido:
 
 ## Posicao no encadeamento
 
-- estado do fluxo:
-  - rascunho
-  - ABERTO PARA CONSIDERACAO
-  - em debate
-  - consolidado
-  - arquivado
-- passo atual:
-  - EM CIRCULACAO
-  - em revisao
-  - definicao provisoria
-  - consolidado
-  - arquivado
+- estado do fluxo: aberto para consideracao
+- passo atual: em circulacao
 - tem origem em:
 - documentos relacionados:
-- proximo passo:
-  - abrir para consideracao
-  - revisar
-  - levar para no
-  - bifurcar em novo DFI
-  - consolidar
-  - arquivar
+- proximo passo: revisar
 - data da ultima consolidacao:
 
 ## Titulo da interpretacao
@@ -125,6 +105,26 @@ Modelo-base sugerido:
 ## Relacao com outros artefatos
 
 <relacao com DFIPs, nos, chains, dinamicas ou outros DFIs>
+
+## Origem do processo interpretativo
+
+<opcional; origem em no, chain, DFIP, registro ou sequencia de trocas>
+
+## Contrapontos relevantes considerados
+
+<opcional; contrapontos que afetaram a interpretacao consolidada>
+
+## Propostas alternativas consideradas
+
+<opcional; alternativas consideradas durante o processo>
+
+## Reformulacoes importantes
+
+<opcional; mudancas relevantes de formulacao ate a versao atual>
+
+## Material absorvido de documentos anteriores
+
+<opcional; DFIPs, DFIs, registros ou outros documentos incorporados>
 ```
 
 ## Justificativa interpretativa
@@ -142,39 +142,20 @@ Outro ganho importante e que esse modelo ja incorpora duas exigencias que surgir
 
 - o modelo ainda depende de algum julgamento humano para diferenciar ajuste local de novo `DFI`
 - os campos de `posicao no encadeamento` ainda podem evoluir conforme o uso real
-- a lista de opcoes em `CAPS` ajuda preenchimento, mas pode precisar de poda se comecar a inflar demais
+- as opcoes da secao devem ficar em DFIB proprio para nao inflar os documentos finais
 - o modelo ainda nao resolve totalmente a representacao de bifurcacao, centralidade e canonicidade entre documentos
+- as secoes opcionais-contextuais podem inflar DFIs simples se forem usadas sem necessidade
 
 ## Relacao com outros artefatos
 
-- este DFI concretiza a direcao registrada em `artefatos/dfi/estrutura-minima.md`
-- este DFI reutiliza o aprendizado de `dfis/cabecalho-documental.md`
-- este DFI deve ser usado em conjunto com `operacao/protocolo-provisorio-de-circulacao-de-dfi.md` quando entrar em circulacao real
+- este DFI concretiza a direcao registrada em `biblioteca/dfibs/artefatos/dfi/estrutura-minima-de-dfi.md`
+- este DFI reutiliza o aprendizado de `biblioteca/dfis/cabecalho-documental.md`
+- este DFI deve ser usado em conjunto com `biblioteca/dfis/fluxo-documental/circulacao-revisao-e-consolidacao-de-dfis.md` quando entrar em circulacao real
+- as secoes opcionais-contextuais se apoiam em `biblioteca/dfis/artefatos/dfi/consolidacao-de-interpretacoes-em-dfis.md`
+- a funcao da secao `Posicao no encadeamento` esta explicada em `biblioteca/dfis/fluxo-documental/posicao-no-encadeamento.md`
 
 ## Valores atualmente considerados
 
-Os valores abaixo devem ser lidos como repertorio provisiorio para teste em uso real, nao como taxonomia fechada.
+O repertorio provisiorio de valores para `Posicao no encadeamento` fica em `biblioteca/dfibs/artefatos/posicao-no-encadeamento/opcoes-de-posicao-no-encadeamento.md`.
 
-### Estado do fluxo
-
-- rascunho
-- aberto para consideracao
-- em debate
-- consolidado
-- arquivado
-
-### Passo atual
-
-- em circulacao
-- em revisao
-- definicao provisoria
-- referencia de cabecalho
-- absorvido por outro DFI
-- consolidado
-- arquivado
-- abrir para consideracao
-- revisar
-- levar para no
-- bifurcar em novo DFI
-- consolidar
-- manter como referencia
+Documentos finais devem registrar apenas os valores selecionados.
