@@ -336,7 +336,7 @@ Leitura atual:
 
 Observacao atual:
 
-- este campo parece util para tornar o fluxo mais legivel no preenchimento, especialmente se vier acompanhado de opcoes em `CAPS`
+- este campo parece util para tornar o fluxo mais legivel no preenchimento, especialmente se o repertorio de opcoes ficar em DFIB proprio
 
 ## Recomendacao provisoria
 

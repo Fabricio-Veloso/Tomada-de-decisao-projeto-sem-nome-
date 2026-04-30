@@ -8,7 +8,10 @@ Este estudo serviu para descobrir dinamicas, registros intermediarios e requisit
 
 ## Vinculo com o workboard principal
 
-Este documento nasceu como desdobramento do bloco `produzir-primeiro-exemplo-completo-de-fluxo` registrado em `WORKBOARD.md`.
+Este documento nasceu como desdobramento do bloco `produzir-primeiro-exemplo-completo-de-fluxo` registrado em `operacional/WORKBOARD.md`.
+
+- data do estudo registrada no historico Git: 2026-04-27
+- commit de referencia: `01ca545`
 
 O recorte foi deliberado:
 
@@ -16,7 +19,7 @@ O recorte foi deliberado:
 - mergulhar no funcionamento interno do no antes de voltar ao macro entre um no e outro
 - usar esse mergulho para descobrir dinamicas, registros intermediarios e requisitos minimos de um futuro MVP operacional
 
-Esse papel exploratorio foi cumprido. As pendencias que nao foram concluidas foram movidas para `backlog/ideias-abertas.md` e `backlog/decisoes-em-aberto.md`.
+Esse papel exploratorio foi cumprido. As pendencias que nao foram concluidas foram movidas para `operacional/ideias-abertas.md` e `operacional/decisoes-em-aberto.md`.
 
 ## Contexto consolidado
 
@@ -39,7 +42,7 @@ O foco passou a ser entender como um no pode ser conduzido de modo que:
 
 ## Resultado consolidado
 
-O estudo ajudou a consolidar um microfluxo inicial em `operacao/esqueleto-inicial-do-no.md` com sete etapas:
+O estudo ajudou a consolidar um microfluxo inicial que depois foi absorvido por `biblioteca/dfibs/artefatos/dpn/estrutura-minima-de-dpn.md` e `biblioteca/dpns/no-meta.md`:
 
 1. `Abertura formal do no`
 2. `Checagem de quorum`
@@ -49,15 +52,15 @@ O estudo ajudou a consolidar um microfluxo inicial em `operacao/esqueleto-inicia
 6. `Rodada de contrapontos e propostas`
 7. `Fechamento e encaminhamentos`
 
-Tambem foram registradas dinamicas-base em `dinamicas/exemplos/`:
+Tambem foram registradas dinamicas-base em `biblioteca/dinamicas/exemplos/`:
 
-- `abertura-formal-do-no.md`
-- `checagem-de-quorum.md`
-- `apresentacao-inicial-do-propositor.md`
-- `rodada-de-duvidas-e-esclarecimentos.md`
-- `conversa-de-bar-controlada.md`
-- `rodada-de-contrapontos-e-propostas.md`
-- `fechamento-e-encaminhamentos.md`
+- `biblioteca/dinamicas/exemplos/abertura-formal-do-no.md`
+- `biblioteca/dinamicas/exemplos/checagem-de-quorum.md`
+- `biblioteca/dinamicas/exemplos/apresentacao-inicial-do-propositor.md`
+- `biblioteca/dinamicas/exemplos/rodada-de-duvidas-e-esclarecimentos.md`
+- `biblioteca/dinamicas/exemplos/conversa-de-bar-controlada.md`
+- `biblioteca/dinamicas/exemplos/rodada-de-contrapontos-e-propostas.md`
+- `biblioteca/dinamicas/exemplos/fechamento-e-encaminhamentos.md`
 
 ## Hipoteses de trabalho que sobreviveram ao estudo
 

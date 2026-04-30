@@ -144,7 +144,7 @@ Este arquivo deve funcionar como deposito de pistas para retomada posterior.
 
 Quando algum desses pontos amadurecer o suficiente, ele pode sair daqui e virar:
 
-- uma decisao mais clara em `backlog/decisoes-em-aberto.md`
+- uma decisao mais clara em `operacional/decisoes-em-aberto.md`
 - um DFI proprio
 - uma regra operacional
 - uma parte da estrutura minima de `DFI`
