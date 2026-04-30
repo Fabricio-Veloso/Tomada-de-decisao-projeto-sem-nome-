@@ -42,8 +42,8 @@ Marcar o inicio oficial do no, alinhar a disciplina minima de fala e explicitar 
 
 ## Materiais relacionados
 
-- `operacao/esqueleto-inicial-do-no.md`
-- `operacao/papeis.md`
+- `biblioteca/dpns/no-meta.md`
+- `biblioteca/dfis/nos-e-papeis/papeis-minimos-em-nos.md`
 
 ## Notas e variacoes
 

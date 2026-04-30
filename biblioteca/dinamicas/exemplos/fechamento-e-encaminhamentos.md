@@ -39,8 +39,8 @@ Consolidar o que o no produziu e transformar a elaboracao do encontro em encamin
 
 ## Materiais relacionados
 
-- `operacao/esqueleto-inicial-do-no.md`
-- `artefatos/dpn/estrutura-minima.md`
+- `biblioteca/dpns/no-meta.md`
+- `biblioteca/dfibs/artefatos/dpn/estrutura-minima-de-dpn.md`
 
 ## Notas e variacoes
 

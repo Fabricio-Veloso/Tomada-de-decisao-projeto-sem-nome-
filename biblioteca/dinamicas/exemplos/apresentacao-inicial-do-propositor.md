@@ -41,8 +41,8 @@ Criar uma base comum minima para o no, apresentando o `DFI` ou `DFIP` que motivo
 
 ## Materiais relacionados
 
-- `operacao/esqueleto-inicial-do-no.md`
-- `artefatos/dpn/estrutura-minima.md`
+- `biblioteca/dpns/no-meta.md`
+- `biblioteca/dfibs/artefatos/dpn/estrutura-minima-de-dpn.md`
 
 ## Notas e variacoes
 

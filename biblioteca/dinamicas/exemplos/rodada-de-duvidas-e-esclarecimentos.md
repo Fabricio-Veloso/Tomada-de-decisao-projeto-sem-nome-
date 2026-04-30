@@ -42,8 +42,8 @@ Organizar uma etapa de fala regulada para tirar duvidas sobre o `DFI` ou `DFIP` 
 
 ## Materiais relacionados
 
-- `operacao/esqueleto-inicial-do-no.md`
-- `artefatos/dpn/estrutura-minima.md`
+- `biblioteca/dpns/no-meta.md`
+- `biblioteca/dfibs/artefatos/dpn/estrutura-minima-de-dpn.md`
 
 ## Notas e variacoes
 
