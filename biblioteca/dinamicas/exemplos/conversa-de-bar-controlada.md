@@ -39,8 +39,9 @@ Abrir uma janela curta de fala mais livre para levantar impressoes, duvidas e te
 
 ## Materiais relacionados
 
-- `operacao/esqueleto-inicial-do-no.md`
-- `dinamicas/exemplos/rodada-de-leitura-e-resposta.md`
+- `biblioteca/dfibs/artefatos/dpn/estrutura-minima-de-dpn.md`
+- `biblioteca/dinamicas/exemplos/rodada-de-duvidas-e-esclarecimentos.md`
+- `biblioteca/dinamicas/exemplos/rodada-de-contrapontos-e-propostas.md`
 
 ## Notas e variacoes
 

@@ -48,8 +48,8 @@ Organizar uma etapa de fala regulada para examinar fragilidades da proposta prin
 
 ## Materiais relacionados
 
-- `operacao/esqueleto-inicial-do-no.md`
-- `artefatos/dpn/estrutura-minima.md`
+- `biblioteca/dpns/no-meta.md`
+- `biblioteca/dfibs/artefatos/dpn/estrutura-minima-de-dpn.md`
 
 ## Notas e variacoes
 
