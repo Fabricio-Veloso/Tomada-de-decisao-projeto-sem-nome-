@@ -110,14 +110,46 @@ Por isso, proposta do projeto e construir formas mais organizadas de encontro e 
 - organizar propostas, objecoes e alternativas sem perder historico
 - permitir continuidade entre encontros diferentes
 
-## Leitura sugerida
+## Roteiro para novos entrantes
 
-Se problema descrito acima fizer sentido para voce, melhor proximo passo e entender como projeto pretende responder a ele na pratica.
+Se problema descrito acima fizer sentido para voce, use este roteiro para entrar no projeto por camadas. A ordem sugerida evita comecar pela estrutura inteira do repositorio antes de entender a funcao de cada parte.
 
-Comece por estes materiais:
+### 1. Entender a porta de entrada publica
 
-- [Guia operacional para publicar DFIs](publicacao/guia-operacional-para-publicar-dfis.md)
+Comece pela camada mais acessivel:
+
 - [Camada de publicacao](publicacao/README.md)
-- [Sumario completo](SUMMARY.md)
+- [Guia operacional para publicar DFIs](publicacao/guia-operacional-para-publicar-dfis.md)
 
-Eles ajudam a entrar na proposta sem depender de uma apresentacao do repositorio centrada na estrutura dos arquivos.
+Esses textos explicam como alguem pode acompanhar ou comentar documentos sem precisar dominar todo o vocabulario interno.
+
+### 2. Entender o foco atual do projeto
+
+Depois, leia a referencia de escopo atual:
+
+- [Foco atual e camadas de conteudo](biblioteca/dfis/projeto/foco-atual-e-camadas-de-conteudo.md)
+
+Esse documento ajuda a separar o que o projeto esta fazendo agora do que pode virar ferramenta, plataforma ou formalizacao futura.
+
+### 3. Aprender os artefatos centrais
+
+Em seguida, leia as definicoes dos principais blocos do dominio:
+
+- [O que sao DFIs](biblioteca/dfis/artefatos/dfi/o-que-sao-dfis.md)
+- [O que sao nos](biblioteca/dfis/artefatos/dpn/o-que-sao-nos.md)
+- [O que sao dinamicas](biblioteca/dfis/artefatos/dpd/o-que-sao-dinamicas.md)
+- [O que sao chains](biblioteca/dfis/artefatos/dpc/o-que-sao-chains.md)
+- [Mapa de artefatos](biblioteca/dfibs/artefatos/mapa-de-artefatos.md)
+
+Essa etapa apresenta o vocabulario minimo para entender conversas sobre DFIs, nos, dinamicas, chains e documentos derivados.
+
+### 4. Ver o estado operacional
+
+Por fim, consulte os quadros de trabalho atuais:
+
+- [Workboard operacional](operacional/WORKBOARD.md)
+- [Workboard estrategico](operacional/WORKBOARD-ESTRATEGICO.md)
+- [Decisoes em aberto](operacional/decisoes-em-aberto.md)
+- [Ideias abertas](operacional/ideias-abertas.md)
+
+Esses arquivos mostram o que ainda esta em construcao, quais frentes seguem abertas e onde uma pessoa nova pode entender proximas discussoes.
